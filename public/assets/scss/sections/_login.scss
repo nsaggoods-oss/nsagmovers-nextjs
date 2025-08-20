@@ -1,0 +1,105 @@
+$primary-color: #fa3c0f;
+$dark-bg: #0d1128;
+$text-light: #ffffff;
+
+.login-page {
+  height: 100vh;
+  background: url("../../img/banner/1.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: rgba(255, 255, 255, 0.97);
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+
+  .login-logo {
+    width: 250px;
+    margin-bottom: 15px;
+  }
+
+  .title {
+    color: $primary-color;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .form {
+    .form-group {
+      margin-bottom: 20px;
+      text-align: left;
+
+      label {
+        font-weight: bold;
+        color: #333;
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      input {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+      }
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 14px;
+      background-color: $primary-color;
+      color: #fff;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background-color: darken($primary-color, 8%);
+      }
+    }
+  }
+
+  .bottom-text {
+    margin-top: 15px;
+    font-size: 14px;
+
+    a {
+      color: $primary-color;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6); /* increased opacity for a darker overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
