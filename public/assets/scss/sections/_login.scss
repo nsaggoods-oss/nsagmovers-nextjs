@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $primary-color: #fa3c0f;
 $dark-bg: #0d1128;
 $text-light: #ffffff;
@@ -64,7 +66,7 @@ $text-light: #ffffff;
       transition: background 0.3s ease;
 
       &:hover {
-        background-color: darken($primary-color, 8%);
+        background-color: color.adjust($primary-color, $lightness: -8%);
       }
     }
   }
