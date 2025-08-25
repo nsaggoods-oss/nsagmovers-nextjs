@@ -74,7 +74,7 @@ const BlogTwo = () => {
                   <div className="details">
                     <h4>
                       <Link
-                        href={`/blog/${slugify(blog.title)}`}
+                        href={`/blog/${slugify(blog.title)}-${blog._id}`}
                         query={{ blog }}
                       >
                         {blog.title}
@@ -100,7 +100,7 @@ const BlogTwo = () => {
 
                     <Link
                       className="read-more-text"
-                      href={`/blog/${slugify(blog.title)}`}
+                      href={`/blog/${slugify(blog.title)}-${blog._id}`}
                       query={{ blog }}
                     >
                       READ MORE
