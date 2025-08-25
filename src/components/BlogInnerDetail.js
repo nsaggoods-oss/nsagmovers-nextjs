@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useMemo } from "react";
 import {
   FaRegCalendarAlt,
   FaRegCommentDots,
@@ -32,48 +32,58 @@ const getAuthorName = (authorId) => {
   return authorId === "4703de92977444d7a4d1ed46" ? "Azaan" : "Waseem";
 };
 
-const BlogInnerDetail = () => {
+const BlogInnerDetail = ({ blog: initialBlog }) => {
   const router = useRouter();
   const formRef = useRef();
+
+  // State
   const [isOpen, setOpen] = useState(false);
   const [comments, setComments] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [blogLoading, setBlogLoading] = useState(false);
+  const [loading, setLoading] = useState(false); // form loading
+  const [blogLoading, setBlogLoading] = useState(false); // page spinner
   const [error, setError] = useState(null);
-  const [blog, setBlog] = useState([]);
-  const [blogId, setBlogId] = useState();
+  const [blog, setBlog] = useState(initialBlog || {});
   const [safeHTML, setSafeHTML] = useState("");
-  const createdAt = useClientValue(
-    () => new Date(blog.createdAt).toLocaleDateString("en-GB"),
-    "" // fallback during SSR
-  );
+  const [blogId, setBlogId] = useState(initialBlog?._id || null);
+
   const currentUrl = useClientValue(() => window.location.href, "");
   const { id } = router.query;
 
+  // Blog createdAt formatting
+  const createdAt = useMemo(() => {
+    if (!blog?.createdAt) return "";
+    return new Date(blog.createdAt).toLocaleDateString("en-GB");
+  }, [blog?.createdAt]);
+
+  // Sanitize blog description
   useEffect(() => {
     if (blog?.description) {
       setSafeHTML(DOMPurify.sanitize(blog.description));
     }
   }, [blog?.description]);
 
+  // Fetch blog if not passed via props
   useEffect(() => {
-    if (id) {
+    if (id && !initialBlog) {
       const parts = id.split("-");
-      const blogId = parts[parts.length - 1];
-      setBlogId(blogId);
+      const bId = parts[parts.length - 1];
+      setBlogId(bId);
 
-      getBlogById(blogId)
+      setBlogLoading(true);
+      getBlogById(bId)
         .then(setBlog)
         .catch((err) => {
           console.error("Failed to fetch blog:", err);
-        });
+          setError("Failed to fetch blog");
+        })
+        .finally(() => setBlogLoading(false));
     }
-  }, []);
+  }, [id, initialBlog]);
 
+  // Fetch comments when blogId is ready
   useEffect(() => {
-    console.log("-------");
+    if (!blogId) return;
 
-    console.log(blogId);
     const fetchComments = async () => {
       try {
         const response = await getCommentsByBlogId(blogId);
@@ -81,20 +91,16 @@ const BlogInnerDetail = () => {
       } catch (err) {
         setError("Failed to fetch comments.");
         console.error(err);
-      } finally {
-        setLoading(false);
       }
     };
 
-    if (blogId) {
-      fetchComments();
-    }
+    fetchComments();
   }, [blogId]);
 
+  // Handle comment form submit
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (loading) setLoading(true);
-    else setBlogLoading(true);
+    setLoading(true);
 
     const formData = new FormData(formRef.current);
     const data = Object.fromEntries(formData.entries());
@@ -119,26 +125,20 @@ const BlogInnerDetail = () => {
       }
     } catch (err) {
       console.error(err);
-      if (err.response) {
-        toast.error(err.response.data.message || "Server error occurred.");
-      } else if (err.request) {
-        toast.error("Unable to connect to the server.");
-      } else {
-        toast.error("An unexpected error occurred.");
-      }
+      toast.error("Failed to send message.");
     } finally {
       setLoading(false);
-      setBlogLoading(false);
     }
   };
-  if (loading) return <Preloader />;
+
+  if (blogLoading) return <Preloader />;
   if (error) return <p className="text-danger text-center">{error}</p>;
 
   return (
     <>
       <Toaster position="bottom-center" reverseOrder={false} />
 
-      {blogLoading && (
+      {loading && (
         <div className="loader-overlay">
           <DotLoader
             color="#FF5722"
@@ -147,15 +147,15 @@ const BlogInnerDetail = () => {
           />
         </div>
       )}
+
       <div className="blog-details-area pd-top-120 pd-bottom-120">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-12">
               <div className="single-blog-inner style-2">
+                {/* Blog Images */}
                 <div className="thumb blog-images-container">
-                  {blog.images &&
-                  Array.isArray(blog.images) &&
-                  blog.images.length > 0 ? (
+                  {blog.images?.length > 0 ? (
                     blog.images.map((img, index) => (
                       <img
                         key={index}
@@ -177,78 +177,69 @@ const BlogInnerDetail = () => {
                   )}
                 </div>
 
+                {/* Blog Details */}
                 <div className="details">
                   <ul className="blog-meta">
                     <li>
                       <FaUserAlt /> by {getAuthorName(blog.blogCreatedBy)}
                     </li>
                     <li>
-                      <FaRegCalendarAlt />
-                      {createdAt}
+                      <FaRegCalendarAlt /> {createdAt}
                     </li>
                     <li>
                       <FaRegCommentDots /> Comments ({comments.length})
                     </li>
-                    {(blog.metaData?.metaKeywords ?? []).map(
-                      (keyword, index) => (
-                        <li key={index}>
-                          <FaTags className="me-2" /> {keyword}
-                        </li>
-                      )
-                    )}
+                    {blog.metaData?.metaKeywords?.map((keyword, i) => (
+                      <li key={i}>
+                        <FaTags className="me-2" /> {keyword}
+                      </li>
+                    ))}
                   </ul>
 
                   <h2>{blog.title}</h2>
                   <div dangerouslySetInnerHTML={{ __html: safeHTML }} />
 
+                  {/* Share Buttons */}
                   <div className="tag-and-share">
                     <div className="row">
                       <div className="col-lg-6 text-start">
                         <strong>Share:</strong>
                         <ul className="social-media gap-2">
-                          <li className="ms-1">
-
-                              <a
-                                href={`https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <FaFacebookF />
-                              </a>
-
+                          <li>
+                            <a
+                              href={`https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <FaFacebookF />
+                            </a>
                           </li>
-                          <li className="ms-1">
-
-                              <a
-                                href={`https://twitter.com/share?url=${currentUrl}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <FaTwitter />
-                              </a>
-
+                          <li>
+                            <a
+                              href={`https://twitter.com/share?url=${currentUrl}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <FaTwitter />
+                            </a>
                           </li>
-                          <li className="ms-1">
-
-                              <a
-                                href={`https://www.linkedin.com/shareArticle?mini=true&url=${currentUrl}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <FaLinkedinIn />
-                              </a>
-
+                          <li>
+                            <a
+                              href={`https://www.linkedin.com/shareArticle?mini=true&url=${currentUrl}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <FaLinkedinIn />
+                            </a>
                           </li>
-                          <li className="ms-1">
-
-                              <a
-                                href={`http://pinterest.com/pin/create/link/?url=${currentUrl}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <FaPinterest />
-                              </a>
-
+                          <li>
+                            <a
+                              href={`http://pinterest.com/pin/create/link/?url=${currentUrl}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <FaPinterest />
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -256,6 +247,7 @@ const BlogInnerDetail = () => {
                   </div>
                 </div>
 
+                {/* Video Modal */}
                 <ModalVideo
                   channel="youtube"
                   autoplay
@@ -265,26 +257,21 @@ const BlogInnerDetail = () => {
                 />
               </div>
 
-              {/* Comments by SEO */}
-
+              {/* Comments Section */}
               <div className="blog-comment">
                 <h4>COMMENTS ({comments.length})</h4>
                 {comments.map((comment, index) => (
-                  <CommentItem key={comment._id} comment={comment} index={index} />
-
+                  <CommentItem key={comment._id || index} comment={comment} />
                 ))}
               </div>
 
+              {/* Comment Form */}
               <form
                 className="blog-comment-form"
                 ref={formRef}
                 onSubmit={handleSubmit}
               >
                 <h4>LEAVE A COMMENT</h4>
-                <p>
-                  Your email address will not be published. Required fields are
-                  marked
-                </p>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="single-input-inner">
@@ -299,11 +286,7 @@ const BlogInnerDetail = () => {
                       <label>
                         <FaRegEnvelope />
                       </label>
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="Your email"
-                      />
+                      <input type="email" name="email" placeholder="Your email" />
                     </div>
                   </div>
                   <div className="col-md-12">
@@ -332,8 +315,7 @@ const BlogInnerDetail = () => {
                   </div>
                 </div>
               </form>
-
-              {/* End Comments by SEO */}
+              {/* End Comments Form */}
             </div>
           </div>
         </div>

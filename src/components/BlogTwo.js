@@ -11,21 +11,12 @@ const BlogTwo = () => {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [safeHTML, setSafeHTML] = useState("");
-
-
-
 
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
         const response = await getBlogs();
-        setBlogs(response.blogs);
-
-        if (blogs?.shortDescription) {
-          setSafeHTML(DOMPurify.sanitize(blog.shortDescription));
-        }
-
+        setBlogs(response.blogs || []);
       } catch (err) {
         setError("Failed to fetch blogs.");
         console.error(err);
@@ -35,7 +26,7 @@ const BlogTwo = () => {
     };
 
     fetchBlogs();
-  }, [blogs?.shortDescription]);
+  }, []); // run once on mount
 
   if (loading) return <Preloader />;
   if (error) return <p className="text-danger text-center">{error}</p>;
@@ -43,11 +34,12 @@ const BlogTwo = () => {
   return (
     <div className="blog-area pd-top-115 pd-bottom-90">
       <div className="container p-sm-0">
+        {/* Section Title */}
         <div className="row justify-content-center">
           <div className="col-lg-6 text-center">
             <div className="section-title">
               <h4 className="subtitle">LATEST BLOG</h4>
-              <h2 className="title"> Moving Tips & Industry Insights</h2>
+              <h2 className="title">Moving Tips & Industry Insights</h2>
               <p className="content">
                 Stay informed with expert advice, helpful guides, and the latest
                 news from Pakistan’s trusted movers. Discover ways to make your
@@ -57,6 +49,7 @@ const BlogTwo = () => {
           </div>
         </div>
 
+        {/* Blog List */}
         <div className="row justify-content-center">
           {blogs.map((blog) => {
             const authorName =
@@ -69,6 +62,8 @@ const BlogTwo = () => {
             const blogImage =
               blog.images?.[0]?.url || "assets/img/default-blog.jpg";
             const altText = blog.images?.[0]?.altText || blog.title;
+
+            const safeHTML = DOMPurify.sanitize(blog.shortDescription || "");
 
             return (
               <div key={blog._id} className="col-lg-4 col-md-6">
@@ -85,6 +80,7 @@ const BlogTwo = () => {
                         {blog.title}
                       </Link>
                     </h4>
+
                     <ul className="blog-meta">
                       <li>
                         <FaUserAlt /> By{" "}
@@ -96,8 +92,11 @@ const BlogTwo = () => {
                       </li>
                     </ul>
 
-                    <div dangerouslySetInnerHTML={{ __html: safeHTML }} />
-
+                    {/* Short description safely injected */}
+                    <div
+                      className="blog-description"
+                      dangerouslySetInnerHTML={{ __html: safeHTML }}
+                    />
 
                     <Link
                       className="read-more-text"

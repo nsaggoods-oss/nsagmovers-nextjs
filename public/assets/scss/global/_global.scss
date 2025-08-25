@@ -511,3 +511,13 @@ ul {
     padding-left: 0;
   }
 }
+
+
+.blog-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 4.5em; /* keeps box heights consistent */
+}

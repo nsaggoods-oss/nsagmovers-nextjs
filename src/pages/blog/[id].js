@@ -1,4 +1,4 @@
-import { Fragment, Suspense, useEffect, useState } from "react";
+import { Fragment, Suspense,useMemo, useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import Head from "next/head";
@@ -24,24 +24,50 @@ const BlogDetails = () => {
   const router = useRouter();
   const { id } = router.query;
   const [blog, setBlog] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const isMongoId = (s) => /^[a-f\d]{24}$/i.test(s || "");
+
+
 
   useEffect(() => {
-    if (id) {
-      const parts = id.split("-");
-      const blogId = parts[parts.length - 1];
+    if (!router.isReady) return;
+    if (!id) return;
 
-      getBlogById(blogId)
-        .then(setBlog)
-        .catch((err) => {
-          console.error("Failed to fetch blog:", err);
-        });
+    const raw = Array.isArray(id) ? id[0] : id;
+    const parts = raw.split("-");
+    const last = parts[parts.length - 1];
 
-    }
-  }, [id]);
+    const fetchData = async () => {
+      try {
+        let data;
+        if (isMongoId(last)) {
+          // URL form: /blog/some-title-<id>
+          data = await getBlogById(last);
+        } else {
+          // URL form: /blog/some-title
+          data = await getBlogById(raw); // implement this in your apiService
+        }
+        setBlog(data || null);
+      } catch (err) {
+        console.error("Failed to fetch blog:", err);
+        setBlog(null);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  const canonicalUrl = `https://nsagmovers.pk/blog/${
-    blog?.slug || blog?.title.replace(/\s+/g, "-").toLowerCase()
-  }`;
+    fetchData();
+  }, [router.isReady, id]);
+
+  const canonicalUrl = useMemo(() => {
+    const base = "https://nsagmovers.pk/blog";
+    if (!blog) return base;
+    const slugPart = blog._id || slugify(blog.title || "");
+    // If you like canonical with id when available:
+    return blog._id ? `${base}/${slugPart}-${blog._id}` : `${base}/${slugPart}`;
+  }, [blog]);
+
+  if (loading) return <Preloader />;
 
   return (
     <Fragment>
