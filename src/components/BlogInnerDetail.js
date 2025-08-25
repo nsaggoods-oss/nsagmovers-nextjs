@@ -21,6 +21,8 @@ import {
 } from "../lib/apiService";
 import { toast, Toaster } from "react-hot-toast";
 import Preloader from "../elements/Preloader";
+import useClientValue from "../elements/useClientValue";
+import CommentItem from "../elements/CommentItem";
 import DotLoader from "react-spinners/DotLoader";
 import DOMPurify from "dompurify";
 import { useRouter } from "next/router";
@@ -40,13 +42,25 @@ const BlogInnerDetail = () => {
   const [error, setError] = useState(null);
   const [blog, setBlog] = useState([]);
   const [blogId, setBlogId] = useState();
+  const [safeHTML, setSafeHTML] = useState("");
+  const createdAt = useClientValue(
+    () => new Date(blog.createdAt).toLocaleDateString("en-GB"),
+    "" // fallback during SSR
+  );
+  const currentUrl = useClientValue(() => window.location.href, "");
   const { id } = router.query;
+
+  useEffect(() => {
+    if (blog?.description) {
+      setSafeHTML(DOMPurify.sanitize(blog.description));
+    }
+  }, [blog?.description]);
 
   useEffect(() => {
     if (id) {
       const parts = id.split("-");
-     const  blogId=parts[parts.length - 1];
-     setBlogId(blogId)
+      const blogId = parts[parts.length - 1];
+      setBlogId(blogId);
 
       getBlogById(blogId)
         .then(setBlog)
@@ -57,9 +71,9 @@ const BlogInnerDetail = () => {
   }, []);
 
   useEffect(() => {
-    console.log('-------')
+    console.log("-------");
 
-    console.log(blogId)
+    console.log(blogId);
     const fetchComments = async () => {
       try {
         const response = await getCommentsByBlogId(blogId);
@@ -169,8 +183,8 @@ const BlogInnerDetail = () => {
                       <FaUserAlt /> by {getAuthorName(blog.blogCreatedBy)}
                     </li>
                     <li>
-                      <FaRegCalendarAlt />{" "}
-                      {new Date(blog.createdAt).toLocaleDateString()}
+                      <FaRegCalendarAlt />
+                      {createdAt}
                     </li>
                     <li>
                       <FaRegCommentDots /> Comments ({comments.length})
@@ -185,11 +199,7 @@ const BlogInnerDetail = () => {
                   </ul>
 
                   <h2>{blog.title}</h2>
-                  <div
-                    dangerouslySetInnerHTML={{
-                      __html: DOMPurify.sanitize(blog.description),
-                    }}
-                  />
+                  <div dangerouslySetInnerHTML={{ __html: safeHTML }} />
 
                   <div className="tag-and-share">
                     <div className="row">
@@ -197,40 +207,48 @@ const BlogInnerDetail = () => {
                         <strong>Share:</strong>
                         <ul className="social-media gap-2">
                           <li className="ms-1">
-                            <a
-                              href={`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <FaFacebookF />
-                            </a>
+
+                              <a
+                                href={`https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <FaFacebookF />
+                              </a>
+
                           </li>
                           <li className="ms-1">
-                            <a
-                              href={`https://twitter.com/share?url=${window.location.href}`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <FaTwitter />
-                            </a>
+
+                              <a
+                                href={`https://twitter.com/share?url=${currentUrl}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <FaTwitter />
+                              </a>
+
                           </li>
                           <li className="ms-1">
-                            <a
-                              href={`https://www.linkedin.com/shareArticle?mini=true&url=${window.location.href}`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <FaLinkedinIn />
-                            </a>
+
+                              <a
+                                href={`https://www.linkedin.com/shareArticle?mini=true&url=${currentUrl}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <FaLinkedinIn />
+                              </a>
+
                           </li>
                           <li className="ms-1">
-                            <a
-                              href={`http://pinterest.com/pin/create/link/?url=${window.location.href}`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <FaPinterest />
-                            </a>
+
+                              <a
+                                href={`http://pinterest.com/pin/create/link/?url=${currentUrl}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <FaPinterest />
+                              </a>
+
                           </li>
                         </ul>
                       </div>
@@ -250,97 +268,70 @@ const BlogInnerDetail = () => {
               {/* Comments by SEO */}
 
               <div className="blog-comment">
-              <h4>COMMENTS ({comments.length})</h4>
-              {comments.map((comment, index) => (
-                <div
-                  className={`media ${
-                    index % 2 !== 0 ? "media-nesting" : ""
-                  }`}
-                  key={comment._id}
-                >
-                  <a href="#">
-                    <img
-                      src="/assets/img/blog/blog-comment.png"
-                      alt="comment"
-                    />
-                  </a>
-                  <div className="media-body">
-                    <h6>{comment.name || "Anonymous"}</h6>
-                    <a href="#">{comment.email}</a>
-                    <span className="date">
-                      {new Date(comment.createdAt).toLocaleDateString(
-                        "en-GB"
-                      )}{" "}
-                      {new Date(comment.createdAt).toLocaleTimeString([], {
-                        hour: "2-digit",
-                        minute: "2-digit",
-                      })}
-                    </span>
-                    <p>
-                      {comment.commentText || "No comment message provided."}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
+                <h4>COMMENTS ({comments.length})</h4>
+                {comments.map((comment, index) => (
+                  <CommentItem key={comment._id} comment={comment} index={index} />
 
-               <form
-              className="blog-comment-form"
-              ref={formRef}
-              onSubmit={handleSubmit}
-            >
-              <h4>LEAVE A COMMENT</h4>
-              <p>
-                Your email address will not be published. Required fields are
-                marked
-              </p>
-              <div className="row">
-                <div className="col-md-6">
-                  <div className="single-input-inner">
-                    <label>
-                      <FaUserAlt />
-                    </label>
-                    <input type="text" name="name" placeholder="Your name" />
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="single-input-inner">
-                    <label>
-                      <FaRegEnvelope />
-                    </label>
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Your email"
-                    />
-                  </div>
-                </div>
-                <div className="col-md-12">
-                  <div className="single-input-inner">
-                    <label>
-                      <FaGlobe />
-                    </label>
-                    <input type="text" name="website" placeholder="Website" />
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="single-input-inner">
-                    <label>
-                      <FaPencilAlt />
-                    </label>
-                    <textarea
-                      name="commentText"
-                      placeholder="Write message"
-                    ></textarea>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <button className="btn btn-base" type="submit">
-                    SEND MESSAGE
-                  </button>
-                </div>
+                ))}
               </div>
-            </form> 
+
+              <form
+                className="blog-comment-form"
+                ref={formRef}
+                onSubmit={handleSubmit}
+              >
+                <h4>LEAVE A COMMENT</h4>
+                <p>
+                  Your email address will not be published. Required fields are
+                  marked
+                </p>
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="single-input-inner">
+                      <label>
+                        <FaUserAlt />
+                      </label>
+                      <input type="text" name="name" placeholder="Your name" />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="single-input-inner">
+                      <label>
+                        <FaRegEnvelope />
+                      </label>
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Your email"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-12">
+                    <div className="single-input-inner">
+                      <label>
+                        <FaGlobe />
+                      </label>
+                      <input type="text" name="website" placeholder="Website" />
+                    </div>
+                  </div>
+                  <div className="col-12">
+                    <div className="single-input-inner">
+                      <label>
+                        <FaPencilAlt />
+                      </label>
+                      <textarea
+                        name="commentText"
+                        placeholder="Write message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div className="col-12">
+                    <button className="btn btn-base" type="submit">
+                      SEND MESSAGE
+                    </button>
+                  </div>
+                </div>
+              </form>
 
               {/* End Comments by SEO */}
             </div>

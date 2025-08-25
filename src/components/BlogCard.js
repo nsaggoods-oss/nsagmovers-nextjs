@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useState, useEffect } from "react";
 import {
   FaRegCalendarAlt,
   FaRegCommentDots,
@@ -16,7 +16,16 @@ const getAuthorName = (authorId) => {
 };
 
 const BlogCard = ({ blog }) => {
+  const [safeHTML, setSafeHTML] = useState('');
+
   const router = useRouter();
+
+  useEffect(() => {
+    if (blog?.shortDescription) {
+      setSafeHTML(DOMPurify.sanitize(blog.shortDescription));
+    }
+  }, [blog?.shortDescription]);
+
   const handleClick = () => {
     router.push(`/blog/${slugify(blog.title)}-${blog._id}`);
   };
@@ -48,17 +57,15 @@ const BlogCard = ({ blog }) => {
         </ul>
         <h2>
         <Link href={`/blog/${slugify(blog.title)}-${blog._id}`}>
-       
+
 
           {blog?.title}
-         
+
         </Link>
         </h2>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: DOMPurify.sanitize(blog?.shortDescription),
-          }}
-        />
+
+
+        <div dangerouslySetInnerHTML={{ __html: safeHTML }} />
         <Link
           className="btn btn-base"
           href={`/blog/${slugify(blog.title)}-${blog._id}`}

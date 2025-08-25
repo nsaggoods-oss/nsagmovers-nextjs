@@ -11,12 +11,21 @@ const BlogTwo = () => {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [safeHTML, setSafeHTML] = useState("");
+
+
+
 
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
         const response = await getBlogs();
         setBlogs(response.blogs);
+
+        if (blogs?.shortDescription) {
+          setSafeHTML(DOMPurify.sanitize(blog.shortDescription));
+        }
+
       } catch (err) {
         setError("Failed to fetch blogs.");
         console.error(err);
@@ -26,7 +35,7 @@ const BlogTwo = () => {
     };
 
     fetchBlogs();
-  }, []);
+  }, [blogs?.shortDescription]);
 
   if (loading) return <Preloader />;
   if (error) return <p className="text-danger text-center">{error}</p>;
@@ -87,11 +96,8 @@ const BlogTwo = () => {
                       </li>
                     </ul>
 
-                    <div
-                      dangerouslySetInnerHTML={{
-                        __html: DOMPurify.sanitize(blog.shortDescription),
-                      }}
-                    />
+                    <div dangerouslySetInnerHTML={{ __html: safeHTML }} />
+
 
                     <Link
                       className="read-more-text"

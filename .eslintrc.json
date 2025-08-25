@@ -2,6 +2,25 @@
     "extends": "next/core-web-vitals",
     "rules": {
       "react/no-unescaped-entities": "off",
-      "@next/next/no-img-element": "off"
+      "@next/next/no-img-element": "off",
+      "no-restricted-globals": [
+        "error",
+        {
+          "name": "window",
+          "message": "Use useClientValue() instead."
+        },
+        {
+          "name": "document",
+          "message": "Use useClientValue() instead."
+        },
+        {
+          "name": "Date",
+          "message": "Use useClientValue() for Date.now()/toLocaleString()."
+        },
+        {
+          "name": "Math.random",
+          "message": "Use useClientValue() instead."
+        }
+      ]
     }
   }
