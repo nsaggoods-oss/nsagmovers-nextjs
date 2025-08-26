@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 const SEO = ({
   title,
@@ -13,7 +13,7 @@ const SEO = ({
   robots,
 }) => {
   return (
-    <Helmet>
+    <Head>
       {title && <title>{title}</title>}
       {description && <meta name="description" content={description} />}
       {keywords && <meta name="keywords" content={keywords} />}
@@ -31,7 +31,7 @@ const SEO = ({
           {JSON.stringify(jsonLd)}
         </script>
       )}
-    </Helmet>
+    </Head>
   );
 };
 

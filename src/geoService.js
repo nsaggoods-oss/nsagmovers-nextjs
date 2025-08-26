@@ -1,13 +1,12 @@
-// src/services/geoService.js
 export const getRegionAndNumber = async () => {
   const regionNumbers = {
-    Punjab: "923208101755", // Lahore number
-    Sindh: "923208101750", // Karachi number
-    Islamabad: "923208101991", // Islamabad number
+    Punjab: "923208101755",     // Lahore
+    Sindh: "923208101750",      // Karachi
+    Islamabad: "923208101991",  // Islamabad
   };
 
   let result = {
-    phoneNumber: regionNumbers.Punjab, // Default number
+    phoneNumber: regionNumbers.Punjab, // default
     region: "",
     city: "",
   };
@@ -27,19 +26,24 @@ export const getRegionAndNumber = async () => {
       );
       const data = await response.json();
 
-      const region = data.principalSubdivision || "";
-      const city = data.city || "";
+      const region = (data.principalSubdivision || "").toLowerCase();
+      const city = (data.city || "").toLowerCase();
 
-      if (region.includes("Punjab")) {
+      // 🔑 Normalize matching
+      if (region.includes("punjab")) {
         result.phoneNumber = regionNumbers.Punjab;
-      } else if (region.includes("Sindh")) {
+      } else if (region.includes("sindh") || city.includes("karachi")) {
         result.phoneNumber = regionNumbers.Sindh;
-      } else if (city.includes("Islamabad") || city.includes("Rawalpindi")) {
+      } else if (
+        region.includes("islamabad") ||
+        city.includes("islamabad") ||
+        city.includes("rawalpindi")
+      ) {
         result.phoneNumber = regionNumbers.Islamabad;
       }
 
-      result.region = region;
-      result.city = city;
+      result.region = data.principalSubdivision || "";
+      result.city = data.city || "";
     } catch (error) {
       console.error("Error fetching geolocation or region data:", error);
     }
