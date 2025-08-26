@@ -1,5 +1,4 @@
 // src/services/geoService.js
-
 export const getRegionAndNumber = async () => {
   const regionNumbers = {
     Punjab: "923208101755", // Lahore number
@@ -13,7 +12,7 @@ export const getRegionAndNumber = async () => {
     city: "",
   };
 
-  if (navigator.geolocation) {
+  if (typeof navigator !== "undefined" && navigator.geolocation) {
     try {
       const getPosition = () =>
         new Promise((resolve, reject) => {
@@ -31,7 +30,6 @@ export const getRegionAndNumber = async () => {
       const region = data.principalSubdivision || "";
       const city = data.city || "";
 
-      // Match the region with your predefined numbers
       if (region.includes("Punjab")) {
         result.phoneNumber = regionNumbers.Punjab;
       } else if (region.includes("Sindh")) {
