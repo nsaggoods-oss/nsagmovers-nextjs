@@ -11,11 +11,14 @@ const BlogTwo = () => {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [page, setPage] = useState(1);
+  const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
+
 
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await getBlogs();
+        const response = await getBlogs(page, debouncedSearchTerm);
         setBlogs(response.blogs || []);
       } catch (err) {
         setError("Failed to fetch blogs.");
@@ -27,6 +30,7 @@ const BlogTwo = () => {
 
     fetchBlogs();
   }, []); // run once on mount
+
 
   if (loading) return <Preloader />;
   if (error) return <p className="text-danger text-center">{error}</p>;
