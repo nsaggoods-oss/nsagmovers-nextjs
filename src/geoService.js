@@ -1,8 +1,8 @@
 export const getRegionAndNumber = async () => {
   const regionNumbers = {
-    Punjab: "923208101755",     // Lahore
-    Sindh: "923208101750",      // Karachi
-    Islamabad: "923208101991",  // Islamabad
+    Punjab: "923208101755", // Lahore
+    Sindh: "923208101750", // Karachi
+    Islamabad: "923208101991", // Islamabad
   };
 
   let result = {
@@ -29,6 +29,7 @@ export const getRegionAndNumber = async () => {
       const region = (data.principalSubdivision || "").toLowerCase();
       const city = (data.city || "").toLowerCase();
 
+      console.log(region);
       // 🔑 Normalize matching
       if (region.includes("punjab")) {
         result.phoneNumber = regionNumbers.Punjab;
