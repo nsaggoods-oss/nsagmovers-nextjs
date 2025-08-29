@@ -222,6 +222,50 @@ const SEOConfig = {
       url: "https://nsagmovers.pk/book",
     },
   },
+  Service: {
+    title: "Reliable Packers and Movers | NSAG Movers | 0320 8101750",
+    description:
+      "Professional packing and moving services for homes, offices, and businesses. Affordable rates and trusted solutions for all your relocation needs.",
+    keywords:
+      "packers and movers, moving services, office movers, home relocation, professional movers",
+    url: "https://nsagmovers.pk/service",
+    image:
+      "https://nsagmovers.pk/assets/img/service/nsag-packers-movers-in-karachi.webp",
+    images: [
+      "https://nsagmovers.pk/assets/img/service/office-shifting-service-in-karachi.webp",
+      "https://nsagmovers.pk/assets/img/service/house-shifting-service-in-karachi.webp",
+    ],
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "MovingCompany",
+      name: "NSAG Packers And Movers",
+      description: [
+        "Reliable packing and moving services for homes and offices. Contact us today!",
+        "We handle fragile items with care.",
+        "Affordable and timely service guaranteed.",
+        "Affordable house moving services.",
+        "Affordable office relocations services.",
+        "Move your furniture anywhere, anytime.",
+        "Electronics delivered right to your doorstep.",
+        "Simplifying Inter & Intra-City House Moving Experience.",
+      ],
+      url: "https://nsagmovers.pk/service",
+      logo: "https://nsagmovers.pk/assets/img/logo.webp",
+      review: [
+        {
+          "@type": "Review",
+          author: "Ali Khan",
+          reviewBody:
+            "Excellent service! My home relocation was smooth and hassle-free.",
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+        },
+      ],
+    },
+  },
   ServiceKarachi: {
     title:
       "Reliable Packers and Movers in Karachi | NSAG Movers | 0320 8101750",

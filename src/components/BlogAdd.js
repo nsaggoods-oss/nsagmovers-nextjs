@@ -9,16 +9,12 @@ import {
   InsertBlog,
   updateBlog,
 } from "../lib/apiService";
-import "react-quill/dist/quill.snow.css";
+import ReactQuill from "react-quill-new";
+import "react-quill-new/dist/quill.snow.css";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import Preloader from "../elements/Preloader";
 import DotLoader from "react-spinners/DotLoader";
-
-// Dynamically import ReactQuill only in client-side
-const ReactQuill = dynamic(() => import("react-quill"), {
-  ssr: false,
-});
 
 const BlogAdd = () => {
 

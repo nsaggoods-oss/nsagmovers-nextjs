@@ -1,5 +1,7 @@
 import { Fragment, Suspense } from "react";
 import dynamic from "next/dynamic"; // Import dynamic from Next.js
+import SEO from "../elements/SEO";
+import SEOConfig from "../elements/SEOConfig";
 
 // Dynamically import components using Next.js dynamic imports
 const Breadcrumb = dynamic(() => import("../components/Breadcrumb"));
@@ -14,8 +16,11 @@ const SupportBarOne = dynamic(() => import("../components/SupportBarOne"));
 const Preloader = dynamic(() => import("../elements/Preloader"), { ssr: false }); // Only on the client-side
 
 const Service = () => {
+  const seoData = SEOConfig.Service;
+
   return (
     <Fragment>
+            <SEO {...seoData} />
       {/* Preloader Component */}
       {/* <Preloader /> */}
 
