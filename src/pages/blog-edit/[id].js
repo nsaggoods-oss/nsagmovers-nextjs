@@ -1,3 +1,5 @@
+"use client";
+
 import { Fragment, Suspense } from "react";
 import dynamic from "next/dynamic";
 import Preloader from "../../elements/Preloader";

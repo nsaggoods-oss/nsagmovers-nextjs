@@ -9,13 +9,17 @@ import {
   InsertBlog,
   updateBlog,
 } from "../lib/apiService";
-import ReactQuill from "react-quill-new";
 import "react-quill-new/dist/quill.snow.css";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import Preloader from "../elements/Preloader";
 import DotLoader from "react-spinners/DotLoader";
 
+// Dynamically import ReactQuill only in client-side
+const ReactQuill = dynamic(() => import("react-quill-new"), {
+  ssr: false,
+  loading: () => <p>Loading editor...</p>, // optional fallback
+});
 const BlogAdd = () => {
 
   const router = useRouter(); // Get router from Next.js
@@ -83,7 +87,10 @@ const BlogAdd = () => {
     else setBlogLoading(true);
 
     try {
-      const currentUser = JSON.parse(localStorage.getItem("user"));
+      let currentUser = null;
+      if (typeof window !== "undefined") {
+        currentUser = JSON.parse(localStorage.getItem("user"));
+      }
       const formData = new FormData();
       formData.append("title", title);
       formData.append("shortDesc", shortDesc);
@@ -185,8 +192,7 @@ const BlogAdd = () => {
                   aria-selected="true"
                 >
                   <img
-                    src="/assets/img/request-quote/1.png"
-                    alt="snag-packers-movers"
+                    src="/assets/img/request-quote/1.png" alt="snag-packers-movers"
                   />
                   BLOG Edit
                 </button>
