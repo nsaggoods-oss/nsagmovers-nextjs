@@ -9,7 +9,7 @@ const FurnitureMoves = () => {
           <div className="row justify-content-start">
             <div className="col-lg-6 remove-col-padding">
             <img
-                  src="/assets/img/service/furniture-moves.png"
+                  src="/assets/img/service/furniture-moves.webp"
                   className="img-fluid"
                   alt="transport-service images"
                 />

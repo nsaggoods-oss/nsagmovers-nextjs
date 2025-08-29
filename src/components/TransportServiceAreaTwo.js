@@ -25,7 +25,7 @@ const TransportServiceAreaTwo = () => {
               <div className='single-service-item'>
                 <div className='service-image'>
                   <img
-                    src='assets/img/service/s-01.png'
+                    src='assets/img/service/s-01.webp'
                     className='img-fluid'
                     alt='service images'
                   />
@@ -41,7 +41,7 @@ const TransportServiceAreaTwo = () => {
               <div className='single-service-item'>
                 <div className='service-image'>
                   <img
-                    src='assets/img/service/s-02.png'
+                    src='assets/img/service/s-02.webp'
                     className='img-fluid'
                     alt='service images'
                   />
@@ -57,7 +57,7 @@ const TransportServiceAreaTwo = () => {
               <div className='single-service-item'>
                 <div className='service-image'>
                   <img
-                    src='assets/img/service/s-03.png'
+                    src='assets/img/service/s-03.webp'
                     className='img-fluid'
                     alt='service images'
                   />
@@ -73,7 +73,7 @@ const TransportServiceAreaTwo = () => {
               <div className='single-service-item'>
                 <div className='service-image'>
                   <img
-                    src='assets/img/service/s-04.png'
+                    src='assets/img/service/s-04.webp'
                     className='img-fluid'
                     alt='service images'
                   />
@@ -89,7 +89,7 @@ const TransportServiceAreaTwo = () => {
               <div className='single-service-item'>
                 <div className='service-image'>
                   <img
-                    src='assets/img/service/s-05.png'
+                    src='assets/img/service/s-05.webp'
                     className='img-fluid'
                     alt='service images'
                   />

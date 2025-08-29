@@ -10,7 +10,7 @@ const StorageBoxesMoves = () => {
             <div className="col-lg-6 remove-col-padding">
               {/* <div className="logistics-image" /> */}
               <img
-                  src="/assets/img/service/storage-boxes-moves.png"
+                  src="/assets/img/service/storage-boxes-moves.webp"
                   className="img-fluid"
                   alt="transport-service images"
                 />

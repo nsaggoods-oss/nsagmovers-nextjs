@@ -32,10 +32,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-1.png"
+                      src="/assets/img/service/service-icon-1.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -61,10 +61,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-2.png"
+                      src="/assets/img/service/service-icon-2.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -90,10 +90,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-3.png"
+                      src="/assets/img/service/service-icon-3.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -119,10 +119,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-4.png"
+                      src="/assets/img/service/service-icon-4.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -148,10 +148,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-5.png"
+                      src="/assets/img/service/service-icon-5.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -177,10 +177,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-6.png"
+                      src="/assets/img/service/service-icon-6.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -206,10 +206,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-6.png"
+                      src="/assets/img/service/service-icon-6.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -234,10 +234,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-6.png"
+                      src="/assets/img/service/service-icon-6.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -261,10 +261,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-6.png"
+                      src="/assets/img/service/service-icon-6.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -289,10 +289,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-6.png"
+                      src="/assets/img/service/service-icon-6.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -318,10 +318,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-6.png"
+                      src="/assets/img/service/service-icon-6.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -347,10 +347,10 @@ const ServiceOneAll = () => {
             <div className="col-lg-4">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-6.png"
+                      src="/assets/img/service/service-icon-6.webp"
                       alt="snag-packers-movers"
                     />
                   </div>

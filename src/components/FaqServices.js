@@ -15,7 +15,7 @@ const FaqServices = ({
         <div className='row'>
           <div className='col-xl-6 col-lg-5 order-lg-2'>
             <div className='thumb text-center mb-4 mb-lg-0'>
-              <img src='assets/img/faq/1.png' alt='faq-image' />
+              <img src='assets/img/contact/1.webp' alt='faq-image' />
             </div>
           </div>
           <div className='col-xl-6 col-lg-7 order-lg-1'>

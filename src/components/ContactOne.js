@@ -7,7 +7,7 @@ const ContactOne = () => {
     <>
       {/*contact-area start*/}
       <div>
-        <img src='assets/img/contact/1.png' alt='snag-packers-movers' />
+        <img src='assets/img/contact/1.webp' alt='snag-packers-movers' />
         <div className='container'>
           <div className='row justify-content-end'>
             <div className='col-xl-6 col-lg-7'>

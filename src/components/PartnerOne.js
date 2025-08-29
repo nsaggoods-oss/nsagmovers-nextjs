@@ -63,47 +63,47 @@ const PartnerOne = () => {
             <Slider {...settings}>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/9.png' alt='shell' />
+                  <img src='assets/img/partner/9.webp' alt='shell' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/2.png' alt='haier' />
+                  <img src='assets/img/partner/2.webp' alt='haier' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/3.png' alt='netle' />
+                  <img src='assets/img/partner/3.webp' alt='netle' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/4.png' alt='unilever' />
+                  <img src='assets/img/partner/4.webp' alt='unilever' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/5.png' alt='nishat' />
+                  <img src='assets/img/partner/5.webp' alt='nishat' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/6.png' alt='pel' />
+                  <img src='assets/img/partner/6.webp' alt='pel' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/7.png' alt='mtm' />
+                  <img src='assets/img/partner/7.webp' alt='mtm' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/8.png' alt='askari' />
+                  <img src='assets/img/partner/8.webp' alt='askari' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/1.png' alt='pso' />
+                  <img src='assets/img/partner/1.webp' alt='pso' />
                 </div>
               </div>
 

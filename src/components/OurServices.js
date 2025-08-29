@@ -26,7 +26,7 @@ const OurServices = () => {
               <Link href="/house-moving-company" title="Reliable and Affordable House Moving Services in Pakistan">
                 <div className="solution-image">
                   <img
-                    src="/assets/img/solution/01.png"
+                    src="/assets/img/solution/01.webp"
                     className="img-fluid"
                     alt="Reliable and Affordable House Moving Services in Pakistan"
                   />
@@ -40,7 +40,7 @@ const OurServices = () => {
               <Link href="/apartment-relocations">
                 <div className="solution-image">
                   <img
-                    src="/assets/img/solution/02.png"
+                    src="/assets/img/solution/02.webp"
                     className="img-fluid"
                     alt="Reliable and Affordable House Moving Services in Pakistan"
                   />
@@ -54,7 +54,7 @@ const OurServices = () => {
               <Link href="/office-relocations" title="">
                 <div className="solution-image">
                   <img
-                    src="/assets/img/solution/03.png"
+                    src="/assets/img/solution/03.webp"
                     className="img-fluid"
                     alt="Targeting corporate and business clients for office moves"
 
@@ -69,7 +69,7 @@ const OurServices = () => {
               <Link href="/international-moves">
                 <div className="solution-image">
                   <img
-                    src="/assets/img/solution/04.png"
+                    src="/assets/img/solution/04.webp"
                     className="img-fluid"
                     alt="solution image"
                   />
@@ -83,7 +83,7 @@ const OurServices = () => {
               <Link href="/store-deliveries" title="Store delivery services for e-commerce or retailers">
                 <div className="solution-image">
                   <img
-                    src="/assets/img/solution/05.png"
+                    src="/assets/img/solution/05.webp"
                     className="img-fluid"
                     alt="Store delivery services for e-commerce or retailers"
                   />
@@ -97,7 +97,7 @@ const OurServices = () => {
               <Link href="/furniture-move">
                 <div className="solution-image">
                   <img
-                    src="/assets/img/solution/06.png"
+                    src="/assets/img/solution/06.webp"
                     className="img-fluid"
                     alt="solution image"
                   />

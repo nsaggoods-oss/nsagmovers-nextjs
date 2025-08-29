@@ -10,7 +10,7 @@ const PetsMoves = () => {
             <div className="col-lg-6 remove-col-padding">
               {/* <div className="logistics-image" /> */}
               <img
-                  src="/assets/img/service/04.png"
+                  src="/assets/img/service/04.webp"
                   className="img-fluid"
                   alt="transport-service images"
                 />

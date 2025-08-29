@@ -86,12 +86,12 @@ const ServiceTwo = () => {
                   <div className="thumb">
                     <div className="icon">
                       <img
-                        src="/assets/img/service/service-icon-003.png"
+                        src="/assets/img/service/service-icon-003.webp"
                         alt="snag-packers-movers"
                       />
                       <img
                         className="img-2"
-                        src="/assets/img/service/service-icon-03.png"
+                        src="/assets/img/service/service-icon-03.webp"
                         alt="snag-packers-movers"
                       />
                     </div>
@@ -120,12 +120,12 @@ const ServiceTwo = () => {
                   <div className="thumb">
                     <div className="icon">
                       <img
-                        src="/assets/img/service/service-icon-003.png"
+                        src="/assets/img/service/service-icon-003.webp"
                         alt="snag-packers-movers"
                       />
                       <img
                         className="img-2"
-                        src="/assets/img/service/service-icon-03.png"
+                        src="/assets/img/service/service-icon-03.webp"
                         alt="snag-packers-movers"
                       />
                     </div>
@@ -149,17 +149,17 @@ const ServiceTwo = () => {
               <div className="item">
                 <div
                   className="single-service-wrap-2"
-                  style={{ backgroundImage: "url(assets/img/service/11.png)" }}
+                  style={{ backgroundImage: "url(assets/img/service/11.webp)" }}
                 >
                   <div className="thumb">
                     <div className="icon">
                       <img
-                        src="/assets/img/service/service-icon-003.png"
+                        src="/assets/img/service/service-icon-003.webp"
                         alt="snag-packers-movers"
                       />
                       <img
                         className="img-2"
-                        src="/assets/img/service/service-icon-03.png"
+                        src="/assets/img/service/service-icon-03.webp"
                         alt="snag-packers-movers"
                       />
                     </div>
@@ -183,17 +183,17 @@ const ServiceTwo = () => {
               <div className="item">
                 <div
                   className="single-service-wrap-2"
-                  style={{ backgroundImage: "url(assets/img/service/12.png)" }}
+                  style={{ backgroundImage: "url(assets/img/service/12.webp)" }}
                 >
                   <div className="thumb">
                     <div className="icon">
                       <img
-                        src="/assets/img/service/service-icon-003.png"
+                        src="/assets/img/service/service-icon-003.webp"
                         alt="snag-packers-movers"
                       />
                       <img
                         className="img-2"
-                        src="/assets/img/service/service-icon-03.png"
+                        src="/assets/img/service/service-icon-03.webp"
                         alt="snag-packers-movers"
                       />
                     </div>

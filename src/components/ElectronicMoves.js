@@ -11,7 +11,7 @@ const ElectronicMoves = () => {
 
               {/* <div className="logistics-image" /> */}
               <img
-                  src="/assets/img/service/electronic-moves.png"
+                  src="/assets/img/service/electronic-moves.webp"
                   className="img-fluid"
                   alt="transport-service images"
                 />

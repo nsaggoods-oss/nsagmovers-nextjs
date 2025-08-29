@@ -72,7 +72,7 @@ const ServiceThree = () => {
               <div
                 className='service-image'
                 style={{
-                  backgroundImage: 'url("/assets/img/service/service.png")',
+                  backgroundImage: 'url("/assets/img/service/service.webp")',
                 }}
               />
             </div>

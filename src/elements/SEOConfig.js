@@ -25,7 +25,7 @@ const SEOConfig = {
         "https://www.instagram.com/nsaggoodstransport",
         "https://twitter.com/NSAGMovers",
       ],
-      logo: "https://nsagmovers.pk/assets/img/logo-2.png",
+      logo: "https://nsagmovers.pk/assets/img/logo.webp",
       contactPoint: [
         {
           "@type": "ContactPoint",
@@ -79,9 +79,9 @@ const SEOConfig = {
     url: "https://nsagmovers.pk/about",
     image: "https://nsagmovers.pk/assets/img/banner/about.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/about/1.png",
-      "https://nsagmovers.pk/assets/img/about/2.png",
-      "https://nsagmovers.pk/assets/img/about/9.png",
+      "https://nsagmovers.pk/assets/img/about/1.webp",
+      "https://nsagmovers.pk/assets/img/about/2.webp",
+      "https://nsagmovers.pk/assets/img/about/9.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -232,10 +232,10 @@ const SEOConfig = {
 
     url: "https://nsagmovers.pk/moving-company-karachi",
     image:
-      "https://nsagmovers.pk/assets/img/service/nsag-packers-movers-in-karachi.png",
+      "https://nsagmovers.pk/assets/img/service/nsag-packers-movers-in-karachi.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/service/office-shifting-service-in-karachi.png",
-      "https://nsagmovers.pk/assets/img/service/house-shifting-service-in-karachi.png",
+      "https://nsagmovers.pk/assets/img/service/office-shifting-service-in-karachi.webp",
+      "https://nsagmovers.pk/assets/img/service/house-shifting-service-in-karachi.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -253,7 +253,7 @@ const SEOConfig = {
         "Simplifying Inter & Intra-City House Moving Experience.",
       ],
       url: "https://nsagmovers.pk/moving-company-karachi",
-      logo: "https://nsagmovers.pk/assets/img/logo-2.png",
+      logo: "https://nsagmovers.pk/assets/img/logo.webp",
       review: [
         {
           "@type": "Review",
@@ -277,10 +277,10 @@ const SEOConfig = {
       "moving services Lahore, packers and movers Lahore, affordable movers Lahore, home relocation Lahore, NSAG movers Lahore",
     url: "https://nsagmovers.pk/moving-company-lahore",
     image:
-      "https://nsagmovers.pk/assets/img/service/nsag-packers-movers-in-lahore.png",
+      "https://nsagmovers.pk/assets/img/service/nsag-packers-movers-in-lahore.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/service/office-shifting-service-in-lahore.png",
-      "https://nsagmovers.pk/assets/img/service/house-shifting-service-in-lahore.png",
+      "https://nsagmovers.pk/assets/img/service/office-shifting-service-in-lahore.webp",
+      "https://nsagmovers.pk/assets/img/service/house-shifting-service-in-lahore.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -309,10 +309,10 @@ const SEOConfig = {
       "packers and movers Islamabad, moving company Islamabad, house movers Islamabad, NSAG relocation Islamabad, best movers in Islamabad",
     url: "https://nsagmovers.pk/moving-company-islamabad",
     image:
-      "https://nsagmovers.pk/assets/img/service/nsag-packers-movers-in-islamabad.png",
+      "https://nsagmovers.pk/assets/img/service/nsag-packers-movers-in-islamabad.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/service/office-shifting-service-in-islamabad.png",
-      "https://nsagmovers.pk/assets/img/service/house-shifting-service-in-islamabad.png",
+      "https://nsagmovers.pk/assets/img/service/office-shifting-service-in-islamabad.webp",
+      "https://nsagmovers.pk/assets/img/service/house-shifting-service-in-islamabad.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -447,10 +447,10 @@ const SEOConfig = {
     keywords: "Mazda Shehzore rental, transport rental, NSAG Movers",
     url: "https://nsagmovers.pk/shehzore-mazda-for-rent",
     image:
-      "https://nsagmovers.pk/assets/img/service/shehzore-mazda-for-rent.png",
+      "https://nsagmovers.pk/assets/img/service/shehzore-mazda-for-rent.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/service/shehzore-mazda-for-rent.png",
-      "https://nsagmovers.pk/assets/img/service/shehzore-mazda-for-rent.png",
+      "https://nsagmovers.pk/assets/img/service/shehzore-mazda-for-rent.webp",
+      "https://nsagmovers.pk/assets/img/service/shehzore-mazda-for-rent.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -469,10 +469,10 @@ const SEOConfig = {
       "Fast and reliable store deliveries with NSAG Movers. We handle your deliveries with care.",
     keywords: "store deliveries, courier services, NSAG Movers",
     url: "https://nsagmovers.pk/store-deliveries",
-    image: "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.png",
+    image: "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.png",
-      "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.png",
+      "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.webp",
+      "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -491,10 +491,10 @@ const SEOConfig = {
       "Efficient storage box moving services by NSAG Movers. We handle your storage with utmost care.",
     keywords: "storage boxes, moving services, NSAG Movers",
     url: "https://nsagmovers.pk/storage-boxes-moves",
-    image: "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.png",
+    image: "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.png",
-      "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.png",
+      "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.webp",
+      "https://nsagmovers.pk/assets/img/service/storage-boxes-moves.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -513,10 +513,10 @@ const SEOConfig = {
       "Specialized moving services for pets and animals. Safe and caring transportation for your furry friends.",
     keywords: "pets moving, animal relocation, NSAG Movers",
     url: "https://nsagmovers.pk/pets-and-animals-moves",
-    image: "https://nsagmovers.pk/assets/img/service/04.png",
+    image: "https://nsagmovers.pk/assets/img/service/04.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/service/04.png",
-      "https://nsagmovers.pk/assets/img/service/04.png",
+      "https://nsagmovers.pk/assets/img/service/04.webp",
+      "https://nsagmovers.pk/assets/img/service/04.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -536,10 +536,10 @@ const SEOConfig = {
     keywords:
       "furniture moving services, affordable movers for furniture, best furniture relocation Pakistan, NSAG furniture movers",
     url: "https://nsagmovers.pk/furniture-move",
-    image: "https://nsagmovers.pk/assets/img/service/furniture-moves.png",
+    image: "https://nsagmovers.pk/assets/img/service/furniture-moves.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/service/furniture-moves.png",
-      "https://nsagmovers.pk/assets/img/service/furniture-moves.png",
+      "https://nsagmovers.pk/assets/img/service/furniture-moves.webp",
+      "https://nsagmovers.pk/assets/img/service/furniture-moves.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -559,10 +559,10 @@ const SEOConfig = {
     keywords:
       "electronics moving services, electronics relocation, professional electronic movers, NSAG electronics movers",
     url: "https://nsagmovers.pk/electronic-moves",
-    image: "https://nsagmovers.pk/assets/img/service/electronic-moves.png",
+    image: "https://nsagmovers.pk/assets/img/service/electronic-moves.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/service/electronic-moves.png",
-      "https://nsagmovers.pk/assets/img/service/electronic-moves.png",
+      "https://nsagmovers.pk/assets/img/service/electronic-moves.webp",
+      "https://nsagmovers.pk/assets/img/service/electronic-moves.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",

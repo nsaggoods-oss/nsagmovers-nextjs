@@ -15,22 +15,22 @@ const AboutOne = () => {
                 <div className="about-thumb-wrap">
                   <img
                     className="img-1"
-                    src="./assets/img/about/shape.png"
+                    src="./assets/img/about/shape.webp"
                     alt="snag-packers-movers"
                   />
                   <img
                     className="img-2"
-                    src="./assets/img/about/1.png"
+                    src="./assets/img/about/1.webp"
                     alt="snag-packers-movers"
                   />
                   <img
                     className="img-3"
-                    src="./assets/img/about/2.png"
+                    src="./assets/img/about/2.webp"
                     alt="snag-packers-movers"
                   />
                   <div className="exprience-wrap">
                     <img
-                      src="/./assets/img/about/shape-3.png"
+                      src="/./assets/img/about/shape-3.webp"
                       alt="snag-packers-movers"
                     />
                     <div className="details">
@@ -122,7 +122,7 @@ const AboutOne = () => {
                       <div className="col-xl-6 col-lg-12 col-md-6 align-self-center">
                         <div className="thumb">
                           <img
-                            src="/./assets/img/about/9.png"
+                            src="/./assets/img/about/9.webp"
                             alt="snag-packers-movers"
                           />
                         </div>
@@ -135,13 +135,13 @@ const AboutOne = () => {
                       <div className="author-wrap">
                         <div className="thumb">
                           <img
-                            src="/./assets/img/about/4.png"
+                            src="/./assets/img/about/4.webp"
                             alt="snag-packers-movers"
                           />
                         </div>
                         <div className="details">
                           <img
-                            src="./assets/img/about/signature.png"
+                            src="./assets/img/about/signature.webp"
                             alt="snag-packers-movers"
                           />
                           <p>CEO, Of Company</p>

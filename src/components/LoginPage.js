@@ -84,7 +84,7 @@ const LoginPage = () => {
       <div className="login-page">
         <div className="login-card">
           <Image
-            src="/assets/img/logo-2.png"
+            src="/assets/img/logo.webp"
             alt="Logo"
             width={150}
             height={80}

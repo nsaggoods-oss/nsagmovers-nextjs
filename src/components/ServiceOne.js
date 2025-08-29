@@ -8,7 +8,7 @@ const ServiceOne = () => {
       {/* service area start */}
       <div
         className="service-area pd-top-115 pd-bottom-90 pb-lg-0"
-        style={{ background: "url(assets/img/service/bg.png)" }}
+        style={{ background: "url(assets/img/service/bg.webp)" }}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -36,10 +36,10 @@ const ServiceOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-3.png"
+                      src="/assets/img/service/service-icon-3.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -67,10 +67,10 @@ const ServiceOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-3.png"
+                      src="/assets/img/service/service-icon-3.webp"
                       alt="snag-packers-movers"
                     />
                   </div>
@@ -97,10 +97,10 @@ const ServiceOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-service-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/service/3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/service/3.webp" alt="snag-packers-movers" />
                   <div className="icon">
                     <img
-                      src="/assets/img/service/service-icon-3.png"
+                      src="/assets/img/service/service-icon-3.webp"
                       alt="snag-packers-movers"
                     />
                   </div>

@@ -9,7 +9,7 @@ const StoreDeliveries = () => {
           <div className="row justify-content-start">
             <div className="col-lg-6 remove-col-padding">
             <img
-                  src="/assets/img/service/store-eliveries.png"
+                  src="/assets/img/service/store-eliveries.webp"
                   className="img-fluid"
                   alt="transport-service images"
                 />

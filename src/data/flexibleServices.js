@@ -2,7 +2,7 @@ export const flexibleServices = [
   // Group 1 - Home Shifting
   {
     serviceId: 1,
-    icon: "/assets/img/service/service-icon-flexibility1.png",
+    icon: "/assets/img/service/service-icon-flexibility1.webp",
     title: "Flexibility",
     subtitle: "Book NSAG Movers Instantly",
     description:
@@ -12,7 +12,7 @@ export const flexibleServices = [
   },
   {
     serviceId: 1,
-    icon: "/assets/img/service/service-icon-comfort.png",
+    icon: "/assets/img/service/service-icon-comfort.webp",
     title: "Comfort",
     subtitle: "Sit Back and Relax",
     description:
@@ -22,7 +22,7 @@ export const flexibleServices = [
   },
   {
     serviceId: 1,
-    icon: "/assets/img/service/service-icon-safety1.png",
+    icon: "/assets/img/service/service-icon-safety1.webp",
     title: "Safety",
     subtitle: "Stress-Free Moving",
     description:
@@ -34,7 +34,7 @@ export const flexibleServices = [
   // Group 2 - Office Relocation
   {
     serviceId: 2,
-    icon: "/assets/img/service/service-icon-fast.png",
+    icon: "/assets/img/service/service-icon-fast.webp",
         title: "Fast",
     subtitle: "Relocate Office in No Time",
     description:
@@ -44,7 +44,7 @@ export const flexibleServices = [
   },
   {
     serviceId: 2,
-    icon: "/assets/img/service/service-icon-effortless.png",
+    icon: "/assets/img/service/service-icon-effortless.webp",
     title: "Effortless",
     subtitle: "Sit Back While We Handle",
     description:
@@ -54,7 +54,7 @@ export const flexibleServices = [
   },
   {
     serviceId: 2,
-    icon: "/assets/img/service/service-icon-secure.png",
+    icon: "/assets/img/service/service-icon-secure.webp",
     title: "Secure",
     subtitle: "Your Assets Are in Safe Hands",
     description:
@@ -66,7 +66,7 @@ export const flexibleServices = [
   // Group 3 - Local Moves
   {
     serviceId: 3,
-    icon: "/assets/img/service/service-icon-convenience.png",
+    icon: "/assets/img/service/service-icon-convenience.webp",
     title: "Convenience",
     subtitle: "Book Movers Instantly",
     description:
@@ -76,7 +76,7 @@ export const flexibleServices = [
   },
   {
     serviceId: 3,
-    icon: "/assets/img/service/service-icon-ease.png",
+    icon: "/assets/img/service/service-icon-ease.webp",
     title: "Ease",
     subtitle: "Stress-Free Moving",
     description:
@@ -86,7 +86,7 @@ export const flexibleServices = [
   },
   {
     serviceId: 3,
-    icon: "/assets/img/service/service-icon-reliability.png",
+    icon: "/assets/img/service/service-icon-reliability.webp",
     title: "Reliability",
     subtitle: "Hassle-Free Relocation",
     description:
@@ -98,7 +98,7 @@ export const flexibleServices = [
   // Group 4 - Intercity or International Moves
   {
     serviceId: 4,
-    icon: "/assets/img/service/service-icon-reliable.png",
+    icon: "/assets/img/service/service-icon-reliable.webp",
     title: "Reliable",
     subtitle: "Reliable Transportation",
     description:
@@ -108,7 +108,7 @@ export const flexibleServices = [
   },
   {
     serviceId: 4,
-    icon: "/assets/img/service/service-icon-careful.png",
+    icon: "/assets/img/service/service-icon-careful.webp",
     title: "Careful",
     subtitle: "Careful Packing",
     description:
@@ -118,7 +118,7 @@ export const flexibleServices = [
   },
   {
     serviceId: 4,
-    icon: "/assets/img/service/service-icon-customized.png",
+    icon: "/assets/img/service/service-icon-customized.webp",
     title: "Customized",
     subtitle: "Customized Services",
     description:

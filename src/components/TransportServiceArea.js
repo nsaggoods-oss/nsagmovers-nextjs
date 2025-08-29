@@ -19,7 +19,7 @@ const TransportServiceArea = () => {
             <div className='col-lg-6'>
               <div className='transport-service-image wow fadeInLeft'>
                 <img
-                  src='assets/img/service/01.png'
+                  src='assets/img/service/01.webp'
                   className='img-fluid'
                   alt='transport-service images'
                 />
@@ -53,7 +53,7 @@ const TransportServiceArea = () => {
             <div className='col-lg-6 offset-lg-1 order-lg-2'>
               <div className='transport-service-image wow fadeInRight'>
                 <img
-                  src='assets/img/service/02.png'
+                  src='assets/img/service/02.webp'
                   className='img-fluid'
                   alt='transport-service images'
                 />
@@ -87,7 +87,7 @@ const TransportServiceArea = () => {
             <div className='col-lg-6'>
               <div className='transport-service-image wow fadeInLeft'>
                 <img
-                  src='assets/img/service/03.png'
+                  src='assets/img/service/03.webp'
                   className='img-fluid'
                   alt='transport-service images'
                 />

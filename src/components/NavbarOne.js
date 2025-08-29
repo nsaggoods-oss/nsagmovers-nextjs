@@ -144,7 +144,7 @@ const NavbarOne = () => {
             </div>
             <div className="logo">
               <a href="/">
-                <img src="/assets/img/logo-2.png" alt="Logo" />
+                <img src="/assets/img/logo.webp" alt="Logo" />
               </a>
             </div>
             <div className="nav-left-part"></div>

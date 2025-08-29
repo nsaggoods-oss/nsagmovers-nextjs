@@ -103,7 +103,7 @@ const FooterOne = () => {
               <div className="widget widget_about">
                 <div className="thumb">
                   <img
-                    src="/assets/img/logo-white.png"
+                    src="/assets/img/logo-white.webp"
                     alt="snag-packers-movers"
                   />
                 </div>

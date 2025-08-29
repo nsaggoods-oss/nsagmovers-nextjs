@@ -9,15 +9,15 @@ const WhyChooseUsOne = () => {
       {/*wcu-area start*/}
       <div
         className="wcu-area bg-overlay "
-        style={{ background: "url(assets/img/wcu/bg.png)" }}
+        style={{ background: "url(assets/img/wcu/bg.webp)" }}
       >
-        <img className="img-1" src="/assets/img/wcu/1.png" alt="snag-packers-movers" />
-        <img className="img-2" src="/assets/img/wcu/2.png" alt="snag-packers-movers" />
+        <img className="img-1" src="/assets/img/wcu/1.webp" alt="snag-packers-movers" />
+        <img className="img-2" src="/assets/img/wcu/2.webp" alt="snag-packers-movers" />
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-6 order-lg-2">
               <div className="video-thumb-wrap">
-                <img src="/assets/img/wcu/video.png" alt="snag-packers-movers" />
+                <img src="/assets/img/wcu/video.webp" alt="snag-packers-movers" />
                 <span
                   className="video-play-btn cursor-pointer"
                   data-effect="mfp-zoom-in"
@@ -37,7 +37,7 @@ const WhyChooseUsOne = () => {
               </div>
               <div className="single-wcu-wrap">
                 <div className="icon">
-                  <img src="/assets/img/wcu/icon-1.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/wcu/icon-1.webp" alt="snag-packers-movers" />
                 </div>
                 <div className="details">
                   <h6>Timely Delivery</h6>
@@ -49,7 +49,7 @@ const WhyChooseUsOne = () => {
               </div>
               <div className="single-wcu-wrap">
                 <div className="icon">
-                  <img src="/assets/img/wcu/icon-2.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/wcu/icon-2.webp" alt="snag-packers-movers" />
                 </div>
                 <div className="details">
                   <h6>Customized Solutions</h6>
@@ -61,7 +61,7 @@ const WhyChooseUsOne = () => {
               </div>
               <div className="single-wcu-wrap">
                 <div className="icon">
-                  <img src="/assets/img/wcu/icon-3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/wcu/icon-3.webp" alt="snag-packers-movers" />
                 </div>
                 <div className="details">
                   <h6>Extensive Experience</h6>
@@ -73,7 +73,7 @@ const WhyChooseUsOne = () => {
               </div>
               <div className="single-wcu-wrap">
                 <div className="icon">
-                  <img src="/assets/img/wcu/icon-3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/wcu/icon-3.webp" alt="snag-packers-movers" />
                 </div>
                 <div className="details">
                   <h6>Reliability and Security</h6>
@@ -85,7 +85,7 @@ const WhyChooseUsOne = () => {
               </div>
               <div className="single-wcu-wrap">
                 <div className="icon">
-                  <img src="/assets/img/wcu/icon-3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/wcu/icon-3.webp" alt="snag-packers-movers" />
                 </div>
                 <div className="details">
                   <h6>Expert Handling</h6>
@@ -97,7 +97,7 @@ const WhyChooseUsOne = () => {
               </div>
               <div className="single-wcu-wrap">
                 <div className="icon">
-                  <img src="/assets/img/wcu/icon-3.png" alt="snag-packers-movers" />
+                  <img src="/assets/img/wcu/icon-3.webp" alt="snag-packers-movers" />
                 </div>
                 <div className="details">
                   <h6>Efficiency</h6>

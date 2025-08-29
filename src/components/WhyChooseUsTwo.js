@@ -13,7 +13,7 @@ const WhyChooseUsTwo = ({ serviceId  }) => {
   return (
     <div
       className="wcu-area-2 pd-top-115"
-      style={{ backgroundImage: "url(assets/img/wcu/bg-2.png)" }}
+      style={{ backgroundImage: "url(assets/img/wcu/bg-2.webp)" }}
     >
       <div className="container">
         <div className="row justify-content-center">
@@ -45,7 +45,7 @@ const WhyChooseUsTwo = ({ serviceId  }) => {
           {/* Center Image */}
           <div className="col-lg-4">
             <div className="thumb text-center">
-              <img src="assets/img/wcu/1.png" alt="snag-packers-movers" />
+              <img src="assets/img/wcu/1.webp" alt="snag-packers-movers" />
             </div>
           </div>
 

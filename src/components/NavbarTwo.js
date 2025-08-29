@@ -80,10 +80,10 @@ const NavbarTwo = () => {
             </div>
             <div className="logo">
               <Link className="logo-1" href="/">
-                <img src="/assets/img/home-2/logo.png" alt="Logo" />
+                <img src="/assets/img/home-2/logo.webp" alt="Logo" />
               </Link>
               <Link className="logo-2" href="/">
-                <img src="/assets/img/logo-2.png" alt="logo" />
+                <img src="/assets/img/logo.webp" alt="logo" />
               </Link>
             </div>
             <div className="nav-right-part nav-right-part-mobile">

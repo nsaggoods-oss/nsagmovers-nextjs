@@ -14,22 +14,22 @@ const ServicePackerMoverLahore = () => {
                 <div className="about-thumb-wrap mb-lg-0 mb-4">
                   <img
                     className="img-1"
-                    src="/assets/img/about/shape.png"
+                    src="/assets/img/about/shape.webp"
                     alt="snag-packers-movers"
                   />
                   <img
                     className="img-2"
-                    src="/assets/img/service/nsag-packers-movers-in-lahore.png"
+                    src="/assets/img/service/nsag-packers-movers-in-lahore.webp"
                     alt="snag-packers-movers"
                   />
                   {/* <img
                     className='img-3'
 
-                     src='assets/img/about/8.png'
+                     src='assets/img/about/8.webp'
                     alt='snag-packers-movers'
                   /> */}
                   <div className="exprience-wrap">
-                    <img src="/assets/img/about/shape-3.png" alt="snag-packers-movers" />
+                    <img src="/assets/img/about/shape-3.webp" alt="snag-packers-movers" />
                     <div className="details">
                       <TrackVisibility once>
                         {({ isVisible }) =>
@@ -81,7 +81,7 @@ const ServicePackerMoverLahore = () => {
                         <div className="single-about-wrap">
                           <div className="icon">
                             <img
-                              src="/assets/img/about/icon-1.png"
+                              src="/assets/img/about/icon-1.webp"
                               alt="snag-packers-movers"
                             />
                           </div>
@@ -94,7 +94,7 @@ const ServicePackerMoverLahore = () => {
                         <div className="single-about-wrap">
                           <div className="icon">
                             <img
-                              src="/assets/img/about/icon-2.png"
+                              src="/assets/img/about/icon-2.webp"
                               alt="snag-packers-movers"
                             />
                           </div>
@@ -120,21 +120,21 @@ const ServicePackerMoverLahore = () => {
                 <div className="about-thumb-wrap mb-lg-0 mb-4">
                   <img
                     className="img-1"
-                    src="/assets/img/about/shape.png"
+                    src="/assets/img/about/shape.webp"
                     alt="snag-packers-movers"
                   />
                   <img
                     className="img-2"
-                    src="/assets/img/service/office-shifting-service-in-lahore.png"
+                    src="/assets/img/service/office-shifting-service-in-lahore.webp"
                     alt="snag-packers-movers"
                   />
                   {/* <img
                     className='img-3'
-                    src='assets/img/about/8.png'
+                    src='assets/img/about/8.webp'
                     alt='snag-packers-movers'
                   /> */}
                   {/* <div className="exprience-wrap">
-                    <img src="/assets/img/about/shape-3.png" alt="snag-packers-movers" />
+                    <img src="/assets/img/about/shape-3.webp" alt="snag-packers-movers" />
                     <div className="details">
                       <TrackVisibility once>
                         {({ isVisible }) =>
@@ -179,7 +179,7 @@ const ServicePackerMoverLahore = () => {
                         <div className="single-about-wrap">
                           <div className="icon">
                             <img
-                              src="/assets/img/about/icon-1.png"
+                              src="/assets/img/about/icon-1.webp"
                               alt="snag-packers-movers"
                             />
                           </div>
@@ -192,7 +192,7 @@ const ServicePackerMoverLahore = () => {
                         <div className="single-about-wrap">
                           <div className="icon">
                             <img
-                              src="/assets/img/about/icon-2.png"
+                              src="/assets/img/about/icon-2.webp"
                               alt="snag-packers-movers"
                             />
                           </div>
@@ -218,21 +218,21 @@ const ServicePackerMoverLahore = () => {
                 <div className="about-thumb-wrap mb-lg-0 mb-4">
                   <img
                     className="img-1"
-                    src="/assets/img/about/shape.png"
+                    src="/assets/img/about/shape.webp"
                     alt="snag-packers-movers"
                   />
                   <img
                     className="img-2"
-                    src="/assets/img/service/house-shifting-service-in-lahore.png"
+                    src="/assets/img/service/house-shifting-service-in-lahore.webp"
                     alt="snag-packers-movers"
                   />
                   {/* <img
                     className='img-3'
-                    src='assets/img/about/8.png'
+                    src='assets/img/about/8.webp'
                     alt='snag-packers-movers'
                   /> */}
                   {/* <div className='exprience-wrap'>
-                    <img src='assets/img/about/shape-3.png' alt='snag-packers-movers' />
+                    <img src='assets/img/about/shape-3.webp' alt='snag-packers-movers' />
                     <div className='details'>
                       <TrackVisibility once>
                         {({ isVisible }) =>
@@ -278,7 +278,7 @@ const ServicePackerMoverLahore = () => {
                         <div className="single-about-wrap">
                           <div className="icon">
                             <img
-                              src="/assets/img/about/icon-1.png"
+                              src="/assets/img/about/icon-1.webp"
                               alt="snag-packers-movers"
                             />
                           </div>
@@ -291,7 +291,7 @@ const ServicePackerMoverLahore = () => {
                         <div className="single-about-wrap">
                           <div className="icon">
                             <img
-                              src="/assets/img/about/icon-2.png"
+                              src="/assets/img/about/icon-2.webp"
                               alt="snag-packers-movers"
                             />
                           </div>
