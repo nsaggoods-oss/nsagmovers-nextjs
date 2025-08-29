@@ -7,7 +7,7 @@ const Breadcrumb = ({ title }) => {
       {/* breadcrumb start */}
       <div
         className='breadcrumb-area bg-overlay-2'
-        style={{ backgroundImage: 'url("/assets/img/banner/breadcrumb.png")' }}
+        style={{ backgroundImage: 'url("/assets/img/banner/breadcrumb.webp")' }}   loading="lazy"
       >
         <div className='container'>
           <div className='row'>

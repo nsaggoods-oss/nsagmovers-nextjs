@@ -32,7 +32,7 @@ const BannerTwo = () => {
             <div>
               <div
                 className='item'
-                style={{ background: "url('/assets/img/banner/2.png')" }}
+                style={{ background: "url('/assets/img/banner/2.webp')" }}
               >
                 <div className='container'>
                   <div className='row'>
@@ -70,7 +70,7 @@ const BannerTwo = () => {
             <div>
               <div
                 className='item'
-                style={{ background: "url('/assets/img/banner/2.png')" }}
+                style={{ background: "url('/assets/img/banner/2.webp')" }}
               >
                 <div className='container'>
                   <div className='row'>

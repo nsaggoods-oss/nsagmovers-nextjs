@@ -7,11 +7,11 @@ const SEOConfig = {
     keywords:
       "packers and movers, home relocation, office moving, NSAG Movers, moving services Pakistan, best packers in Karachi, Lahore relocation services",
     url: "https://nsagmovers.pk/",
-    image: "https://nsagmovers.pk/assets/img/banner/1.png",
+    image: "https://nsagmovers.pk/assets/img/banner/1.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/banner/4.png",
-      "https://nsagmovers.pk/assets/img/banner/2.png",
-      "https://nsagmovers.pk/assets/img/banner/3.png",
+      "https://nsagmovers.pk/assets/img/banner/4.webp",
+      "https://nsagmovers.pk/assets/img/banner/2.webp",
+      "https://nsagmovers.pk/assets/img/banner/3.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -40,7 +40,7 @@ const SEOConfig = {
     title: "Page Not Found - NSAG Movers",
     description: "This page does not exist or has been removed.",
     url: "https://nsagmovers.pk/404",
-    image: "https://nsagmovers.pk/assets/img/banner/1.png",
+    image: "https://nsagmovers.pk/assets/img/banner/1.webp",
     robots: "noindex, follow", // ✅ ONLY here
   },
   Contact: {
@@ -50,8 +50,8 @@ const SEOConfig = {
     keywords:
       "contact NSAG Movers, moving inquiries, NSAG Packers and Movers, moving services support",
     url: "https://nsagmovers.pk/contact",
-    image: "https://nsagmovers.pk/assets/img/banner/breadcrumb.png",
-    images: ["https://nsagmovers.pk/assets/img/banner/breadcrumb.png"],
+    image: "https://nsagmovers.pk/assets/img/banner/breadcrumb.webp",
+    images: ["https://nsagmovers.pk/assets/img/banner/breadcrumb.webp"],
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "ContactPage",
@@ -77,7 +77,7 @@ const SEOConfig = {
     keywords:
       "about NSAG Movers, professional moving services, NSAG Packers and Movers, moving company Pakistan",
     url: "https://nsagmovers.pk/about",
-    image: "https://nsagmovers.pk/assets/img/banner/about.png",
+    image: "https://nsagmovers.pk/assets/img/banner/about.webp",
     images: [
       "https://nsagmovers.pk/assets/img/about/1.png",
       "https://nsagmovers.pk/assets/img/about/2.png",
@@ -99,11 +99,11 @@ const SEOConfig = {
     keywords:
       "moving tips, relocation advice, blog by NSAG Movers, stress-free moving",
     url: "https://nsagmovers.pk/blogs",
-    image: "https://nsagmovers.pk/assets/img/banner/1.png",
+    image: "https://nsagmovers.pk/assets/img/banner/1.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/banner/4.png",
-      "https://nsagmovers.pk/assets/img/banner/2.png",
-      "https://nsagmovers.pk/assets/img/banner/3.png",
+      "https://nsagmovers.pk/assets/img/banner/4.webp",
+      "https://nsagmovers.pk/assets/img/banner/2.webp",
+      "https://nsagmovers.pk/assets/img/banner/3.webp",
     ],
     // url: "https://nsagmovers.pk/blog",
     // image: "https://nsagmovers.pk/assets/img/blog/blog-banner.png",
@@ -135,11 +135,11 @@ const SEOConfig = {
     //   "https://nsagmovers.pk/assets/img/service/holiday-offer2.png",
     // ],
     url: "https://nsagmovers.pk/",
-    image: "https://nsagmovers.pk/assets/img/banner/1.png",
+    image: "https://nsagmovers.pk/assets/img/banner/1.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/banner/4.png",
-      "https://nsagmovers.pk/assets/img/banner/2.png",
-      "https://nsagmovers.pk/assets/img/banner/3.png",
+      "https://nsagmovers.pk/assets/img/banner/4.webp",
+      "https://nsagmovers.pk/assets/img/banner/2.webp",
+      "https://nsagmovers.pk/assets/img/banner/3.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -160,11 +160,11 @@ const SEOConfig = {
       // url: "https://nsagmovers.pk/furniture-moving-karachi",
       // image: "https://nsagmovers.pk/assets/img/service/furniture-karachi.png",
       url: "https://nsagmovers.pk/",
-      image: "https://nsagmovers.pk/assets/img/banner/1.png",
+      image: "https://nsagmovers.pk/assets/img/banner/1.webp",
       images: [
-        "https://nsagmovers.pk/assets/img/banner/4.png",
-        "https://nsagmovers.pk/assets/img/banner/2.png",
-        "https://nsagmovers.pk/assets/img/banner/3.png",
+        "https://nsagmovers.pk/assets/img/banner/4.webp",
+        "https://nsagmovers.pk/assets/img/banner/2.webp",
+        "https://nsagmovers.pk/assets/img/banner/3.webp",
       ],
     },
     {
@@ -176,11 +176,11 @@ const SEOConfig = {
       // url: "https://nsagmovers.pk/office-movers-lahore",
       // image: "https://nsagmovers.pk/assets/img/service/office-lahore.png",
       url: "https://nsagmovers.pk/",
-      image: "https://nsagmovers.pk/assets/img/banner/1.png",
+      image: "https://nsagmovers.pk/assets/img/banner/1.webp",
       images: [
-        "https://nsagmovers.pk/assets/img/banner/4.png",
-        "https://nsagmovers.pk/assets/img/banner/2.png",
-        "https://nsagmovers.pk/assets/img/banner/3.png",
+        "https://nsagmovers.pk/assets/img/banner/4.webp",
+        "https://nsagmovers.pk/assets/img/banner/2.webp",
+        "https://nsagmovers.pk/assets/img/banner/3.webp",
       ],
     },
   ],
@@ -191,11 +191,11 @@ const SEOConfig = {
     keywords: "backlink strategy, guest posts, NSAG Movers link building",
     // url: "https://nsagmovers.pk/backlinks",
     url: "https://nsagmovers.pk/",
-    image: "https://nsagmovers.pk/assets/img/banner/1.png",
+    image: "https://nsagmovers.pk/assets/img/banner/1.webp",
     images: [
-      "https://nsagmovers.pk/assets/img/banner/4.png",
-      "https://nsagmovers.pk/assets/img/banner/2.png",
-      "https://nsagmovers.pk/assets/img/banner/3.png",
+      "https://nsagmovers.pk/assets/img/banner/4.webp",
+      "https://nsagmovers.pk/assets/img/banner/2.webp",
+      "https://nsagmovers.pk/assets/img/banner/3.webp",
     ],
     jsonLd: {
       "@context": "https://schema.org",
@@ -212,8 +212,8 @@ const SEOConfig = {
       "Request a quote or book your moving service with NSAG Movers for a smooth and hassle-free relocation.",
     keywords: "book NSAG Movers, moving quote, get a quote",
     url: "https://nsagmovers.pk/book",
-    image: "https://nsagmovers.pk/assets/img/banner/breadcrumb.png",
-    images: ["https://nsagmovers.pk/assets/img/banner/breadcrumb.png"],
+    image: "https://nsagmovers.pk/assets/img/banner/breadcrumb.webp",
+    images: ["https://nsagmovers.pk/assets/img/banner/breadcrumb.webp"],
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "Service",

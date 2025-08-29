@@ -8,7 +8,8 @@ const BannerNotFound = () => {
         <div className="banner-slider owl-carousel">
           <div
             className="item"
-            style={{ backgroundImage: 'url("/assets/img/banner/1.png")' }}
+            style={{ backgroundImage: 'url("/assets/img/banner/1.webp")' }}
+            loading="lazy"
           >
             <div className="container">
               <div className="row">

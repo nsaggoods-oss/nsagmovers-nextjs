@@ -35,7 +35,8 @@ const BannerOne = () => {
             <div>
               <div
                 className="item"
-                style={{ backgroundImage: 'url("/assets/img/banner/1.png")' }}
+                style={{ backgroundImage: 'url("/assets/img/banner/1.webp")' }}
+                loading="lazy"
               >
                 <div className="container">
                   <div className="row">
@@ -75,7 +76,8 @@ const BannerOne = () => {
             <div>
               <div
                 className="item"
-                style={{ backgroundImage: 'url("/assets/img/banner/2.png")' }}
+                style={{ backgroundImage: 'url("/assets/img/banner/2.webp")' }}
+                loading="lazy"
               >
                 <div className="container">
                   <div className="row">
@@ -116,7 +118,8 @@ const BannerOne = () => {
             <div>
               <div
                 className="item"
-                style={{ backgroundImage: 'url("/assets/img/banner/4.png")' }}
+                style={{ backgroundImage: 'url("/assets/img/banner/4.webp")' }}
+                loading="lazy"
               >
                 <div className="container">
                   <div className="row">
