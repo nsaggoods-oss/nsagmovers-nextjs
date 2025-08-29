@@ -85,7 +85,7 @@ const FooterOne = () => {
               {/* <div className='col-lg-4 col-md-6'>
                 <div className='single-footer-top after-none'>
                   <div className='icon'>
-                    <img src='assets/img/icon/clock.png' alt='snag-packers-movers' />
+                    <img src='/assets/img/icon/clock.png' alt='snag-packers-movers' />
                   </div>
                   <div className='details'>
                     <h6>WORKING HOURS:</h6>

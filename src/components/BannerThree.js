@@ -56,7 +56,7 @@ const BannerThree = () => {
                     <div className='col-lg-4'>
                       <div className='img-wrap b-animate-6'>
                         <div className='img-file'>
-                          <img src='assets/img/slide-v1/slide-01.png' alt='' />
+                          <img src='/assets/img/slide-v1/slide-01.png' alt='' />
                         </div>
                       </div>
                     </div>
@@ -92,7 +92,7 @@ const BannerThree = () => {
                     <div className='col-lg-4'>
                       <div className='img-wrap b-animate-6'>
                         <div className='img-file'>
-                          <img src='assets/img/slide-v1/slide-03.png' alt='' />
+                          <img src='/assets/img/slide-v1/slide-03.png' alt='' />
                         </div>
                       </div>
                     </div>

@@ -80,7 +80,7 @@ const PortfolioOne = () => {
                 <div className='swiper-slide'>
                   <div className='single-portfolio-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/portfolio/1.png' alt='snag-packers-movers' />
+                      <img src='/assets/img/portfolio/1.png' alt='snag-packers-movers' />
                     </div>
                     <div className='portfolio-details'>
                       <div className='details'>
@@ -96,7 +96,7 @@ const PortfolioOne = () => {
                 <div className='swiper-slide'>
                   <div className='single-portfolio-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/portfolio/2.png' alt='snag-packers-movers' />
+                      <img src='/assets/img/portfolio/2.png' alt='snag-packers-movers' />
                     </div>
                     <div className='portfolio-details'>
                       <div className='details'>
@@ -112,7 +112,7 @@ const PortfolioOne = () => {
                 <div className='swiper-slide'>
                   <div className='single-portfolio-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/portfolio/3.png' alt='snag-packers-movers' />
+                      <img src='/assets/img/portfolio/3.png' alt='snag-packers-movers' />
                     </div>
                     <div className='portfolio-details'>
                       <div className='details'>
@@ -128,7 +128,7 @@ const PortfolioOne = () => {
                 <div className='swiper-slide'>
                   <div className='single-portfolio-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/portfolio/2.png' alt='snag-packers-movers' />
+                      <img src='/assets/img/portfolio/2.png' alt='snag-packers-movers' />
                     </div>
                     <div className='portfolio-details'>
                       <div className='details'>
@@ -145,10 +145,10 @@ const PortfolioOne = () => {
             </div>
             {/* If we need navigation buttons
             <div className='swiper-button-prev button'>
-              <img src='assets/img/icon/left-arrow.png' alt='snag-packers-movers' />
+              <img src='/assets/img/icon/left-arrow.png' alt='snag-packers-movers' />
             </div>
             <div className='swiper-button-next button'>
-              <img src='assets/img/icon/right-arrow.png' alt='snag-packers-movers' />
+              <img src='/assets/img/icon/right-arrow.png' alt='snag-packers-movers' />
             </div> */}
           </div>
         </div>

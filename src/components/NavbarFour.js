@@ -25,7 +25,7 @@ const NavbarFour = () => {
           <div className='responsive-mobile-menu'>
             <div className='logo-wrapper'>
               <Link href='/' className='logo'>
-                <img src='assets/img/logo.webp' alt='snag-packers-movers' />
+                <img src='/assets/img/logo.webp' alt='snag-packers-movers' />
               </Link>
             </div>
             <button

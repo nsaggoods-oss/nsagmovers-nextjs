@@ -55,7 +55,7 @@ const CompanyOne = () => {
                   <div className='single-carousel-item'>
                     <Link href='#'>
                       <img
-                        src='assets/img/partner/01.png'
+                        src='/assets/img/partner/01.png'
                         className='img-fluid'
                         alt='company image'
                       />
@@ -64,7 +64,7 @@ const CompanyOne = () => {
                   <div className='single-carousel-item'>
                     <Link href='#'>
                       <img
-                        src='assets/img/partner/02.png'
+                        src='/assets/img/partner/02.png'
                         className='img-fluid'
                         alt='company image'
                       />
@@ -73,7 +73,7 @@ const CompanyOne = () => {
                   <div className='single-carousel-item'>
                     <Link href='#'>
                       <img
-                        src='assets/img/partner/04.png'
+                        src='/assets/img/partner/04.png'
                         className='img-fluid'
                         alt='company image'
                       />
@@ -82,7 +82,7 @@ const CompanyOne = () => {
                   <div className='single-carousel-item'>
                     <Link href='#'>
                       <img
-                        src='assets/img/partner/03.png'
+                        src='/assets/img/partner/03.png'
                         className='img-fluid'
                         alt='company image'
                       />
@@ -91,7 +91,7 @@ const CompanyOne = () => {
                   <div className='single-carousel-item'>
                     <Link href='#'>
                       <img
-                        src='assets/img/partner/05.png'
+                        src='/assets/img/partner/05.png'
                         className='img-fluid'
                         alt='company image'
                       />
@@ -100,7 +100,7 @@ const CompanyOne = () => {
                   <div className='single-carousel-item'>
                     <Link href='#'>
                       <img
-                        src='assets/img/partner/06.png'
+                        src='/assets/img/partner/06.png'
                         className='img-fluid'
                         alt='company image'
                       />
@@ -109,7 +109,7 @@ const CompanyOne = () => {
                   <div className='single-carousel-item'>
                     <Link href='#'>
                       <img
-                        src='assets/img/partner/05.png'
+                        src='/assets/img/partner/05.png'
                         className='img-fluid'
                         alt='company image'
                       />
@@ -118,7 +118,7 @@ const CompanyOne = () => {
                   <div className='single-carousel-item'>
                     <Link href='#'>
                       <img
-                        src='assets/img/partner/06.png'
+                        src='/assets/img/partner/06.png'
                         className='img-fluid'
                         alt='company image'
                       />

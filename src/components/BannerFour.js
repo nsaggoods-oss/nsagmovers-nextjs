@@ -226,35 +226,35 @@ const BannerFour = () => {
                   >
                     <div className='slider-image1 custom-thumb'>
                       <img
-                        src='assets/img/slide-v2/sm1.png'
+                        src='/assets/img/slide-v2/sm1.png'
                         className='img-fluid'
                         alt=''
                       />
                     </div>
                     <div className='slider-image2 custom-thumb'>
                       <img
-                        src='assets/img/slide-v2/sm2.png'
+                        src='/assets/img/slide-v2/sm2.png'
                         className='img-fluid'
                         alt=''
                       />
                     </div>
                     <div className='slider-image3 custom-thumb'>
                       <img
-                        src='assets/img/slide-v2/sm3.png'
+                        src='/assets/img/slide-v2/sm3.png'
                         className='img-fluid'
                         alt=''
                       />
                     </div>
                     <div className='slider-image2 custom-thumb'>
                       <img
-                        src='assets/img/slide-v2/sm2.png'
+                        src='/assets/img/slide-v2/sm2.png'
                         className='img-fluid'
                         alt=''
                       />
                     </div>
                     <div className='slider-image3 custom-thumb'>
                       <img
-                        src='assets/img/slide-v2/sm3.png'
+                        src='/assets/img/slide-v2/sm3.png'
                         className='img-fluid'
                         alt=''
                       />

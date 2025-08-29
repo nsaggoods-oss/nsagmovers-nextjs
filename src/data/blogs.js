@@ -5,7 +5,7 @@ const blogs = [
     shortDescription:
       "Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.",
     description: "Full blog content goes here...",
-    images: ["assets/img/blog/1.png"],
+    images: ["/assets/img/blog/1.png"],
     metaData: {
       author: "Admin",
     },
@@ -19,7 +19,7 @@ const blogs = [
     shortDescription:
       "Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.",
     description: "Full blog content goes here...",
-    images: ["assets/img/blog/2.png"],
+    images: ["/assets/img/blog/2.png"],
     metaData: {
       author: "Admin",
     },
@@ -33,7 +33,7 @@ const blogs = [
     shortDescription:
       "Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.",
     description: "Full blog content goes here...",
-    images: ["assets/img/blog/3.png"],
+    images: ["/assets/img/blog/3.png"],
     metaData: {
       author: "Admin",
     },

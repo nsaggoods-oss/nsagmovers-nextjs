@@ -16,7 +16,7 @@ const SkillOne = () => {
                   <div className='thumb'>
                     <img
                       className='w-100'
-                      src='assets/img/about/5.png'
+                      src='/assets/img/about/5.png'
                       alt='snag-packers-movers'
                     />
                   </div>
@@ -25,7 +25,7 @@ const SkillOne = () => {
                   <div className='thumb img-2'>
                     <img
                       className='w-100'
-                      src='assets/img/about/6.png'
+                      src='/assets/img/about/6.png'
                       alt='snag-packers-movers'
                     />
                   </div>

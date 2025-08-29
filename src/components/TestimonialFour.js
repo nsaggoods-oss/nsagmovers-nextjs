@@ -81,7 +81,7 @@ const TestimonialFour = () => {
                             <div className='review-head'>
                               <div className='thumb'>
                                 <img
-                                  src='assets/img/reviewer/01.png'
+                                  src='/assets/img/reviewer/01.png'
                                   alt='reviewer images'
                                 />
                               </div>
@@ -125,7 +125,7 @@ const TestimonialFour = () => {
                             <div className='review-head'>
                               <div className='thumb'>
                                 <img
-                                  src='assets/img/reviewer/02.png'
+                                  src='/assets/img/reviewer/02.png'
                                   alt='reviewer images'
                                 />
                               </div>
@@ -169,7 +169,7 @@ const TestimonialFour = () => {
                             <div className='review-head'>
                               <div className='thumb'>
                                 <img
-                                  src='assets/img/reviewer/01.png'
+                                  src='/assets/img/reviewer/01.png'
                                   alt='reviewer images'
                                 />
                               </div>
@@ -213,7 +213,7 @@ const TestimonialFour = () => {
                             <div className='review-head'>
                               <div className='thumb'>
                                 <img
-                                  src='assets/img/reviewer/02.png'
+                                  src='/assets/img/reviewer/02.png'
                                   alt='reviewer images'
                                 />
                               </div>
@@ -257,7 +257,7 @@ const TestimonialFour = () => {
                             <div className='review-head'>
                               <div className='thumb'>
                                 <img
-                                  src='assets/img/reviewer/01.png'
+                                  src='/assets/img/reviewer/01.png'
                                   alt='reviewer images'
                                 />
                               </div>

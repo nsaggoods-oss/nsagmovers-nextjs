@@ -25,7 +25,7 @@ const ServicePackerMoverLahore = () => {
                   {/* <img
                     className='img-3'
 
-                     src='assets/img/about/8.webp'
+                     src='/assets/img/about/8.webp'
                     alt='snag-packers-movers'
                   /> */}
                   <div className="exprience-wrap">
@@ -130,7 +130,7 @@ const ServicePackerMoverLahore = () => {
                   />
                   {/* <img
                     className='img-3'
-                    src='assets/img/about/8.webp'
+                    src='/assets/img/about/8.webp'
                     alt='snag-packers-movers'
                   /> */}
                   {/* <div className="exprience-wrap">
@@ -228,11 +228,11 @@ const ServicePackerMoverLahore = () => {
                   />
                   {/* <img
                     className='img-3'
-                    src='assets/img/about/8.webp'
+                    src='/assets/img/about/8.webp'
                     alt='snag-packers-movers'
                   /> */}
                   {/* <div className='exprience-wrap'>
-                    <img src='assets/img/about/shape-3.webp' alt='snag-packers-movers' />
+                    <img src='/assets/img/about/shape-3.webp' alt='snag-packers-movers' />
                     <div className='details'>
                       <TrackVisibility once>
                         {({ isVisible }) =>

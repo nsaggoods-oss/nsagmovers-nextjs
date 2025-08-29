@@ -54,7 +54,7 @@ const HomePageServices = () => {
                   <div className="about-thumb-wrap">
                     <img
                       className="img-2"
-                      src="./assets/img/about/1.webp"
+                      src="/assets/img/about/1.webp"
                       alt="snag-packers-movers"
                     />
                   </div>

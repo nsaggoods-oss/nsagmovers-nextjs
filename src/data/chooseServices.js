@@ -9,25 +9,25 @@ export const chooseServices = [
         title: "QUICK MOVING PLANS",
         content:
           "We make a simple plan so your things can reach fast. Then, we follow each step on time. Our system helps make the move easy with no stress.",
-        icon: "assets/img/wcu/icon-4.webp",
+        icon: "/assets/img/wcu/icon-4.webp",
       },
       {
         title: "SAFE ITEM HANDLING",
         content:
           "To begin with, we treat all your home items with care. After that, we pack them the right way. That way, we keep every item safe from any harm.",
-        icon: "assets/img/wcu/icon-5.webp",
+        icon: "/assets/img/wcu/icon-5.webp",
       },
       {
         title: "HELP ANYTIME YOU NEED",
         content:
           "No matter the time, we are always here to help. Also, our team listens to you, answers your questions, and tells you what is happening next.",
-        icon: "assets/img/wcu/icon-6.webp",
+        icon: "/assets/img/wcu/icon-6.webp",
       },
       {
         title: "REAL-TIME MOVE UPDATES",
         content:
           "Let you track your move from start to finish. Then, we share updates with you. This way, you always know what’s going on.",
-        icon: "assets/img/wcu/icon-7.webp",
+        icon: "/assets/img/wcu/icon-7.webp",
       },
     ],
   },
@@ -41,25 +41,25 @@ export const chooseServices = [
         title: "SPEEDY CITY MOVES",
         content:
           "We take smart steps to transport your belongings. Organizing all items. Thus, the move takes place at a swift pace with no hitches.",
-        icon: "assets/img/wcu/icon-4.webp",
+        icon: "/assets/img/wcu/icon-4.webp",
       },
       {
         title: "SECURE AND CLEAN MOVING",
         content:
           "We bring strong tools to keep your things safe. Even if the hallways are small or the stairs are tight, we take care of it. That way, nothing gets dirty or broken.",
-        icon: "assets/img/wcu/icon-5.webp",
+        icon: "/assets/img/wcu/icon-5.webp",
       },
       {
         title: "SUPPORT YOU CAN TRUST",
         content:
           "You can call at any time you have a query. And we also contact you on the moving day to make sure that all is well. That way, you have nothing to worry about.",
-        icon: "assets/img/wcu/icon-6.webp",
+        icon: "/assets/img/wcu/icon-6.webp",
       },
       {
         title: "FLOOR-TO-DOOR TRACKING",
         content:
           "We allow you to view where your belongings are at all times. Afterwards, we provide status updates as your movement takes place. That way, you’re always aware of what is occurring.",
-        icon: "assets/img/wcu/icon-7.webp",
+        icon: "/assets/img/wcu/icon-7.webp",
       },
     ],
   },
@@ -73,25 +73,25 @@ export const chooseServices = [
         title: "FAST GLOBAL SHIPPING",
         content:
           "We organize international relocations well in advance. Your belongings ship out right away, air or ocean, you decide.",
-        icon: "assets/img/wcu/icon-4.webp",
+        icon: "/assets/img/wcu/icon-4.webp",
       },
       {
         title: "SAFE AND COMPLIANT",
         content:
           "They are all wrapped and declared correctly. We respect all international rules to make your belongings both safe and legal.",
-        icon: "assets/img/wcu/icon-5.webp",
+        icon: "/assets/img/wcu/icon-5.webp",
       },
       {
         title: "ASSISTANCE ACROSS TIME ZONES",
         content:
           "Got a question from another country? No problem. Our global support team is active 24/7 and always ready to guide.",
-        icon: "assets/img/wcu/icon-6.webp",
+        icon: "/assets/img/wcu/icon-6.webp",
       },
       {
         title: "TRACK MOVES GLOBALLY",
         content:
           "Be aware of where your belongings are, no matter the country. Offering full updates from packing to final delivery at your new home.",
-        icon: "assets/img/wcu/icon-7.webp",
+        icon: "/assets/img/wcu/icon-7.webp",
       },
     ],
   },
@@ -105,25 +105,25 @@ export const chooseServices = [
         title: "MAZDA ARRIVES QUICKLY",
         content:
           "We send your rented vehicle right on time. Planning is easy, and the service is fast.",
-        icon: "assets/img/wcu/icon-4.webp",
+        icon: "/assets/img/wcu/icon-4.webp",
       },
       {
         title: "SECURE EVERY LOAD",
         content:
           "From smaller to larger cargo, we secure everything. Your cargo is secure from beginning to end.",
-        icon: "assets/img/wcu/icon-5.webp",
+        icon: "/assets/img/wcu/icon-5.webp",
       },
       {
         title: "BOOK & ASK ANYTIME",
         content:
           "Rent at will, day or night. Let’s get to work. Our team is available to direct and reserve quickly.",
-        icon: "assets/img/wcu/icon-6.webp",
+        icon: "/assets/img/wcu/icon-6.webp",
       },
       {
         title: "LIVE RENTAL TRACK",
         content:
           "Keep track of where your Mazda is at all times. Stay on the trip that leads to the destination of the drop.",
-        icon: "assets/img/wcu/icon-7.webp",
+        icon: "/assets/img/wcu/icon-7.webp",
       },
     ],
   },
@@ -137,25 +137,25 @@ export const chooseServices = [
         title: "RAPID PICKUP & DROP BOX",
         content:
           "We pick up and deliver your boxes promptly. Timings are all coordinated to make moving smooth.",
-        icon: "assets/img/wcu/icon-4.webp",
+        icon: "/assets/img/wcu/icon-4.webp",
       },
       {
         title: "SECURED BOX HANDLING",
         content:
           "We handle and transport your boxes with care. Never a drop, never a scratch—just safe transit.",
-        icon: "assets/img/wcu/icon-5.webp",
+        icon: "/assets/img/wcu/icon-5.webp",
       },
       {
         title: "CHAT ANYTIME YOU LIKE",
         content:
           "Storage concern? Chat with us at any time, our team is available all hours.",
-        icon: "assets/img/wcu/icon-6.webp",
+        icon: "/assets/img/wcu/icon-6.webp",
       },
       {
         title: "TRACK EVERY BOX LIVE",
         content:
           "You're informed about the movement of each box. You're updated at every step from start until delivery.",
-        icon: "assets/img/wcu/icon-7.webp",
+        icon: "/assets/img/wcu/icon-7.webp",
       },
     ],
   },
@@ -169,25 +169,25 @@ export const chooseServices = [
         title: "FAST FURNITURE TRANSPORT",
         content:
           "We coordinate schedules and routes for fast delivery. Your furniture is delivered promptly with ease.",
-        icon: "assets/img/wcu/icon-4.webp",
+        icon: "/assets/img/wcu/icon-4.webp",
       },
       {
         title: "WRAPPED AND PROTECTED",
         content:
           "Each of the items is wrapped and relocated the proper way. We take care of everything so nothing cracks or scratches.",
-        icon: "assets/img/wcu/icon-5.webp",
+        icon: "/assets/img/wcu/icon-5.webp",
       },
       {
         title: "ROUND THE CLOCK ASSISTANCE",
         content:
           "Want to inquire about a sofa or table? Our staff is available at any time, twenty-four hours a day.",
-        icon: "assets/img/wcu/icon-6.webp",
+        icon: "/assets/img/wcu/icon-6.webp",
       },
       {
         title: "FOLLOW YOUR FURNIT",
         content:
           "Watch your step with live updates. You’ll never have to guess where your belongings are.",
-        icon: "assets/img/wcu/icon-7.webp",
+        icon: "/assets/img/wcu/icon-7.webp",
       },
     ],
   },

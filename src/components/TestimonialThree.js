@@ -79,7 +79,7 @@ const TestimonialThree = () => {
                             <div className='review-head'>
                               <div className='thumb'>
                                 <img
-                                  src='assets/img/reviewer/01.png'
+                                  src='/assets/img/reviewer/01.png'
                                   alt='reviewer images'
                                 />
                               </div>
@@ -123,52 +123,7 @@ const TestimonialThree = () => {
                             <div className='review-head'>
                               <div className='thumb'>
                                 <img
-                                  src='assets/img/reviewer/02.png'
-                                  alt='reviewer images'
-                                />
-                              </div>
-                              <div className='author-details'>
-                                <h5 className='author'>Michel Robertson</h5>
-                                <span className='post'>Irene Burns</span>
-                                <ul className='rating'>
-                                  <li>
-                                    <FaStar />
-                                  </li>
-                                  <li>
-                                    <FaStar />
-                                  </li>
-                                  <li>
-                                    <FaStar />
-                                  </li>
-                                  <li>
-                                    <FaStar />
-                                  </li>
-                                  <li>
-                                    <FaStar />
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div className='desciption'>
-                              <p>
-                                In to am attended desirous raptures declared
-                                diverted confined at. Collected instantly
-                                remaining up certainly to necessary as. Over
-                                walk dull into son boy door went new. At or
-                                happiness commanded daughters as. Is handsome an
-                                declared at received in extended vicinity
-                                subjects.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className='single-review'>
-                          <div className='single-review-item'>
-                            <div className='review-head'>
-                              <div className='thumb'>
-                                <img
-                                  src='assets/img/reviewer/01.png'
+                                  src='/assets/img/reviewer/02.png'
                                   alt='reviewer images'
                                 />
                               </div>
@@ -213,7 +168,7 @@ const TestimonialThree = () => {
                             <div className='review-head'>
                               <div className='thumb'>
                                 <img
-                                  src='assets/img/reviewer/02.png'
+                                  src='/assets/img/reviewer/01.png'
                                   alt='reviewer images'
                                 />
                               </div>
@@ -258,7 +213,52 @@ const TestimonialThree = () => {
                             <div className='review-head'>
                               <div className='thumb'>
                                 <img
-                                  src='assets/img/reviewer/01.png'
+                                  src='/assets/img/reviewer/02.png'
+                                  alt='reviewer images'
+                                />
+                              </div>
+                              <div className='author-details'>
+                                <h5 className='author'>Michel Robertson</h5>
+                                <span className='post'>Irene Burns</span>
+                                <ul className='rating'>
+                                  <li>
+                                    <FaStar />
+                                  </li>
+                                  <li>
+                                    <FaStar />
+                                  </li>
+                                  <li>
+                                    <FaStar />
+                                  </li>
+                                  <li>
+                                    <FaStar />
+                                  </li>
+                                  <li>
+                                    <FaStar />
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div className='desciption'>
+                              <p>
+                                In to am attended desirous raptures declared
+                                diverted confined at. Collected instantly
+                                remaining up certainly to necessary as. Over
+                                walk dull into son boy door went new. At or
+                                happiness commanded daughters as. Is handsome an
+                                declared at received in extended vicinity
+                                subjects.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className='single-review'>
+                          <div className='single-review-item'>
+                            <div className='review-head'>
+                              <div className='thumb'>
+                                <img
+                                  src='/assets/img/reviewer/01.png'
                                   alt='reviewer images'
                                 />
                               </div>

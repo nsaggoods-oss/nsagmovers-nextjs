@@ -45,7 +45,7 @@ const WhyChooseUsTwo = ({ serviceId  }) => {
           {/* Center Image */}
           <div className="col-lg-4">
             <div className="thumb text-center">
-              <img src="assets/img/wcu/1.webp" alt="snag-packers-movers" />
+              <img src="/assets/img/wcu/1.webp" alt="snag-packers-movers" />
             </div>
           </div>
 

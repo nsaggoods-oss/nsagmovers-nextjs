@@ -81,7 +81,7 @@ const TeamOne = () => {
                   <div className='item'>
                     <div className='single-team-wrap'>
                       <div className='thumb'>
-                        <img src='assets/img/team/1.png' alt='snag-packers-movers' />
+                        <img src='/assets/img/team/1.png' alt='snag-packers-movers' />
                       </div>
                       <div className='details'>
                         <h5>MICHEL RICHARD</h5>
@@ -117,7 +117,7 @@ const TeamOne = () => {
                   <div className='item'>
                     <div className='single-team-wrap'>
                       <div className='thumb'>
-                        <img src='assets/img/team/2.png' alt='snag-packers-movers' />
+                        <img src='/assets/img/team/2.png' alt='snag-packers-movers' />
                       </div>
                       <div className='details'>
                         <h5>ANJELINA ROSEE</h5>
@@ -153,7 +153,7 @@ const TeamOne = () => {
                   <div className='item'>
                     <div className='single-team-wrap'>
                       <div className='thumb'>
-                        <img src='assets/img/team/3.png' alt='snag-packers-movers' />
+                        <img src='/assets/img/team/3.png' alt='snag-packers-movers' />
                       </div>
                       <div className='details'>
                         <h5>MISHEL MARSH</h5>
@@ -189,7 +189,7 @@ const TeamOne = () => {
                   <div className='item'>
                     <div className='single-team-wrap'>
                       <div className='thumb'>
-                        <img src='assets/img/team/2.png' alt='snag-packers-movers' />
+                        <img src='/assets/img/team/2.png' alt='snag-packers-movers' />
                       </div>
                       <div className='details'>
                         <h5>ANJELINA ROSEE</h5>

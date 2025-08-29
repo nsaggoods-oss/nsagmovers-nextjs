@@ -13,7 +13,7 @@ const VideoAreaOne = () => {
         style={{ background: "#080C24" }}
       >
         <div className='video-thumb-wrap '>
-          <img src='assets/img/video/1.png' alt='snag-packers-movers' />
+          <img src='/assets/img/video/1.png' alt='snag-packers-movers' />
           <span
             className='video-play-btn cursor-pointer'
             data-effect='mfp-zoom-in'

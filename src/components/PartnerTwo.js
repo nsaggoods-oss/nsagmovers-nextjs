@@ -56,42 +56,42 @@ const PartnerTwo = () => {
 
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/2.webp' alt='snag-packers-movers' />
+                  <img src='/assets/img/partner/2.webp' alt='snag-packers-movers' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/3.webp' alt='snag-packers-movers' />
+                  <img src='/assets/img/partner/3.webp' alt='snag-packers-movers' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/4.webp' alt='snag-packers-movers' />
+                  <img src='/assets/img/partner/4.webp' alt='snag-packers-movers' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/5.webp' alt='snag-packers-movers' />
+                  <img src='/assets/img/partner/5.webp' alt='snag-packers-movers' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/6.webp' alt='snag-packers-movers' />
+                  <img src='/assets/img/partner/6.webp' alt='snag-packers-movers' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/2.webp' alt='snag-packers-movers' />
+                  <img src='/assets/img/partner/2.webp' alt='snag-packers-movers' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/3.webp' alt='snag-packers-movers' />
+                  <img src='/assets/img/partner/3.webp' alt='snag-packers-movers' />
                 </div>
               </div>
               <div className='item'>
                 <div className='thumb'>
-                  <img src='assets/img/partner/4.webp' alt='snag-packers-movers' />
+                  <img src='/assets/img/partner/4.webp' alt='snag-packers-movers' />
                 </div>
               </div>
             </Slider>

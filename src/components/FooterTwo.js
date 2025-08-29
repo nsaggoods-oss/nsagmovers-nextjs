@@ -23,7 +23,7 @@ const FooterTwo = () => {
               <div className='col-lg-12 align-self-center'>
                 <div className='footer-top-subscribe'>
                   <div className='thumb'>
-                    <img src='assets/img/logo-white.webp' alt='snag-packers-movers' />
+                    <img src='/assets/img/logo-white.webp' alt='snag-packers-movers' />
                   </div>
                   <div className='media-left'>
                     <h3>SUBSCRIBE OUR LATEST NEWS &amp; ARTICLES.</h3>

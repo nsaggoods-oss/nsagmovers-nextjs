@@ -15,7 +15,7 @@ const FooterThree = () => {
                 <div className='footer-widget widget about_us_widget'>
                   <div className='footer-logo'>
                     <Link href='/'>
-                      <img src='assets/img/logo-white.webp' alt='logo' />
+                      <img src='/assets/img/logo-white.webp' alt='logo' />
                     </Link>
                   </div>
                   <p className='text-white'>

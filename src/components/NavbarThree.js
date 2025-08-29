@@ -45,7 +45,7 @@ const NavbarThree = () => {
             </div>
             <div className='logo'>
               <Link href='/'>
-                <img src='assets/img/logo.webp' alt='snag-packers-movers' />
+                <img src='/assets/img/logo.webp' alt='snag-packers-movers' />
               </Link>
             </div>
             <div className='nav-left-part'></div>

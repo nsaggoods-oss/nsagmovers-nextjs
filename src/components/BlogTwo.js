@@ -64,7 +64,7 @@ const BlogTwo = () => {
                 : "Admin";
 
             const blogImage =
-              blog.images?.[0]?.url || "assets/img/default-blog.jpg";
+              blog.images?.[0]?.url || "/assets/img/default-blog.jpg";
             const altText = blog.images?.[0]?.altText || blog.title;
 
             const safeHTML = DOMPurify.sanitize(blog.shortDescription || "");

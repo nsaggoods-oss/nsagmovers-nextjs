@@ -9,7 +9,7 @@ const FaqOne = () => {
           <div className='row'>
             <div className='col-xl-6 col-lg-5 order-lg-2'>
               <div className='thumb text-center mb-4 mb-lg-0'>
-                <img src='assets/img/contact/1.webp' alt='snag-packers-movers' />
+                <img src='/assets/img/contact/1.webp' alt='snag-packers-movers' />
               </div>
             </div>
             <div className='col-xl-6 col-lg-7 order-lg-1'>

@@ -74,7 +74,7 @@ const TestimonialTwo = () => {
                 <div className='single-testimonial-wrap'>
                   <div className='icon'>
                     <img
-                      src='assets/img/testimonial/quote.png'
+                      src='/assets/img/testimonial/quote.png'
                       alt='snag-packers-movers'
                     />
                   </div>
@@ -85,7 +85,7 @@ const TestimonialTwo = () => {
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/1.png' alt='snag-packers-movers' />
+                      <img src='/assets/img/testimonial/1.png' alt='snag-packers-movers' />
                     </div>
                     <div className='details'>
                       <h5>ANJELINA MATHEUS</h5>
@@ -98,7 +98,7 @@ const TestimonialTwo = () => {
                 <div className='single-testimonial-wrap'>
                   <div className='icon'>
                     <img
-                      src='assets/img/testimonial/quote.png'
+                      src='/assets/img/testimonial/quote.png'
                       alt='snag-packers-movers'
                     />
                   </div>
@@ -109,7 +109,7 @@ const TestimonialTwo = () => {
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/2.png' alt='snag-packers-movers' />
+                      <img src='/assets/img/testimonial/2.png' alt='snag-packers-movers' />
                     </div>
                     <div className='details'>
                       <h5>MONISH POUL</h5>
@@ -122,7 +122,7 @@ const TestimonialTwo = () => {
                 <div className='single-testimonial-wrap'>
                   <div className='icon'>
                     <img
-                      src='assets/img/testimonial/quote.png'
+                      src='/assets/img/testimonial/quote.png'
                       alt='snag-packers-movers'
                     />
                   </div>
@@ -133,7 +133,7 @@ const TestimonialTwo = () => {
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/3.png' alt='snag-packers-movers' />
+                      <img src='/assets/img/testimonial/3.png' alt='snag-packers-movers' />
                     </div>
                     <div className='details'>
                       <h5>MICHEL CLACRK</h5>
@@ -146,7 +146,7 @@ const TestimonialTwo = () => {
                 <div className='single-testimonial-wrap'>
                   <div className='icon'>
                     <img
-                      src='assets/img/testimonial/quote.png'
+                      src='/assets/img/testimonial/quote.png'
                       alt='snag-packers-movers'
                     />
                   </div>
@@ -157,7 +157,7 @@ const TestimonialTwo = () => {
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/2.png' alt='snag-packers-movers' />
+                      <img src='/assets/img/testimonial/2.png' alt='snag-packers-movers' />
                     </div>
                     <div className='details'>
                       <h5>MONISH POUL</h5>

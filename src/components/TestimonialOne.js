@@ -72,7 +72,7 @@ const TestimonialOne = () => {
                 <div className='single-testimonial-wrap'>
                   <div className='icon'>
                     <img
-                      src='assets/img/testimonial/quote.png'
+                      src='/assets/img/testimonial/quote.png'
                       alt='snag-packers-movers'
                     />
                   </div>
@@ -81,7 +81,7 @@ const TestimonialOne = () => {
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/3.png' alt='Mahad' />
+                      <img src='/assets/img/testimonial/3.png' alt='Mahad' />
                     </div>
                     <div className='details'>
                       <h5>Mahad MT</h5>
@@ -93,7 +93,7 @@ const TestimonialOne = () => {
                 <div className='single-testimonial-wrap'>
                   <div className='icon'>
                     <img
-                      src='assets/img/testimonial/quote.png'
+                      src='/assets/img/testimonial/quote.png'
                       alt='snag-packers-movers'
                     />
                   </div>
@@ -102,7 +102,7 @@ const TestimonialOne = () => {
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/4.png' alt='Fahad' />
+                      <img src='/assets/img/testimonial/4.png' alt='Fahad' />
                     </div>
                     <div className='details'>
                       <h5>Fahad Tariq </h5>
@@ -114,7 +114,7 @@ const TestimonialOne = () => {
                 <div className='single-testimonial-wrap'>
                   <div className='icon'>
                     <img
-                      src='assets/img/testimonial/quote.png'
+                      src='/assets/img/testimonial/quote.png'
                       alt='snag-packers-movers'
                     />
                   </div>
@@ -123,7 +123,7 @@ const TestimonialOne = () => {
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/5.png' alt='Ikram' />
+                      <img src='/assets/img/testimonial/5.png' alt='Ikram' />
                     </div>
                     <div className='details'>
                       <h5>Ikram Safdar</h5>
@@ -135,7 +135,7 @@ const TestimonialOne = () => {
                 <div className='single-testimonial-wrap'>
                   <div className='icon'>
                     <img
-                      src='assets/img/testimonial/quote.png'
+                      src='/assets/img/testimonial/quote.png'
                       alt='snag-packers-movers'
                     />
                   </div>
@@ -144,7 +144,7 @@ const TestimonialOne = () => {
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/7.png' alt='Sofia' />
+                      <img src='/assets/img/testimonial/7.png' alt='Sofia' />
                     </div>
                     <div className='details'>
                       <h5>Sofia Shafiq</h5>

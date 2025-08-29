@@ -15,17 +15,17 @@ const AboutOne = () => {
                 <div className="about-thumb-wrap">
                   <img
                     className="img-1"
-                    src="./assets/img/about/shape.webp"
+                    src="/assets/img/about/shape.webp"
                     alt="snag-packers-movers"
                   />
                   <img
                     className="img-2"
-                    src="./assets/img/about/1.webp"
+                    src="/assets/img/about/1.webp"
                     alt="snag-packers-movers"
                   />
                   <img
                     className="img-3"
-                    src="./assets/img/about/2.webp"
+                    src="/assets/img/about/2.webp"
                     alt="snag-packers-movers"
                   />
                   <div className="exprience-wrap">
@@ -77,42 +77,42 @@ const AboutOne = () => {
                         <ul className="list-inner-wrap mb-mb-0 mb-3 mb-lg-3 mb-xl-0">
                           <li>
                             <img
-                              src="./assets/img/icon/check.png"
+                              src="/assets/img/icon/check.png"
                               alt="snag-packers-movers"
                             />
                             Timely Delivery
                           </li>
                           <li>
                             <img
-                              src="./assets/img/icon/check.png"
+                              src="/assets/img/icon/check.png"
                               alt="snag-packers-movers"
                             />
                             Customized Solutions
                           </li>
                           <li>
                             <img
-                              src="./assets/img/icon/check.png"
+                              src="/assets/img/icon/check.png"
                               alt="snag-packers-movers"
                             />
                             Extensive Experience
                           </li>
                           <li>
                             <img
-                              src="./assets/img/icon/check.png"
+                              src="/assets/img/icon/check.png"
                               alt="snag-packers-movers"
                             />
                             Reliability and Security
                           </li>
                           <li>
                             <img
-                              src="./assets/img/icon/check.png"
+                              src="/assets/img/icon/check.png"
                               alt="snag-packers-movers"
                             />
                             Expert Handling
                           </li>
                           <li>
                             <img
-                              src="./assets/img/icon/check.png"
+                              src="/assets/img/icon/check.png"
                               alt="snag-packers-movers"
                             />
                             Efficiency
@@ -141,7 +141,7 @@ const AboutOne = () => {
                         </div>
                         <div className="details">
                           <img
-                            src="./assets/img/about/signature.webp"
+                            src="/assets/img/about/signature.webp"
                             alt="snag-packers-movers"
                           />
                           <p>CEO, Of Company</p>
