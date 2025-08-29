@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# If user goes to /about, serve about.html
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*?)/?$ $1.html [L]

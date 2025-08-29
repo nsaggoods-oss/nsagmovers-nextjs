@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
    output: 'export', // 👈 static export mode
+   trailingSlash: true, // 👈 ensures /about/ → /about/index.html
   images: {
     unoptimized: true, // 🚀 disable optimization globally
   },
