@@ -9,7 +9,7 @@ const WhyChooseUsOne = () => {
       {/*wcu-area start*/}
       <div
         className="wcu-area bg-overlay "
-        style={{ background: "url(assets/img/wcu/bg.webp)" }}
+        style={{ background: "url(/assets/img/wcu/bg.webp)" }}
       >
         <img className="img-1" src="/assets/img/wcu/1.webp" alt="snag-packers-movers" />
         <img className="img-2" src="/assets/img/wcu/2.webp" alt="snag-packers-movers" />

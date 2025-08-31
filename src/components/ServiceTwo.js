@@ -81,7 +81,7 @@ const ServiceTwo = () => {
               <div className="item">
                 <div
                   className="single-service-wrap-2"
-                  style={{ backgroundImage: "url(assets/img/service/10.png)" }}
+                  style={{ backgroundImage: "url(/assets/img/service/10.png)" }}
                 >
                   <div className="thumb">
                     <div className="icon">
@@ -115,7 +115,7 @@ const ServiceTwo = () => {
               <div className="item">
                 <div
                   className="single-service-wrap-2"
-                  style={{ backgroundImage: "url(assets/img/service/10.png)" }}
+                  style={{ backgroundImage: "url(/assets/img/service/10.png)" }}
                 >
                   <div className="thumb">
                     <div className="icon">
@@ -149,7 +149,7 @@ const ServiceTwo = () => {
               <div className="item">
                 <div
                   className="single-service-wrap-2"
-                  style={{ backgroundImage: "url(assets/img/service/11.webp)" }}
+                  style={{ backgroundImage: "url(/assets/img/service/11.webp)" }}
                 >
                   <div className="thumb">
                     <div className="icon">
@@ -183,7 +183,7 @@ const ServiceTwo = () => {
               <div className="item">
                 <div
                   className="single-service-wrap-2"
-                  style={{ backgroundImage: "url(assets/img/service/12.webp)" }}
+                  style={{ backgroundImage: "url(/assets/img/service/12.webp)" }}
                 >
                   <div className="thumb">
                     <div className="icon">

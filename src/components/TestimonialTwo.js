@@ -53,7 +53,7 @@ const TestimonialTwo = () => {
       {/* testimonial area start */}
       <div
         className='testimonial-area pd-top-115 pd-bottom-120'
-        style={{ backgroundImage: "url(assets/img/testimonial/bg.png)" }}
+        style={{ backgroundImage: "url(/assets/img/testimonial/bg.png)" }}
       >
         <div className='container'>
           <div className='row justify-content-center'>

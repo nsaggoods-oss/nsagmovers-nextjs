@@ -8,7 +8,7 @@ const ServiceOne = () => {
       {/* service area start */}
       <div
         className="service-area pd-top-115 pd-bottom-90 pb-lg-0"
-        style={{ background: "url(assets/img/service/bg.webp)" }}
+        style={{ background: "url(/assets/img/service/bg.webp)" }}
       >
         <div className="container">
           <div className="row justify-content-center">

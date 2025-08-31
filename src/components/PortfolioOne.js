@@ -56,7 +56,7 @@ const PortfolioOne = () => {
       {/* portfolio area start */}
       <div
         className='portfolio-area pd-top-115'
-        style={{ background: "url(assets/img/portfolio/bg.png)" }}
+        style={{ background: "url(/assets/img/portfolio/bg.png)" }}
       >
         <div className='container'>
           <div className='row'>

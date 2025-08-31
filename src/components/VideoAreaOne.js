@@ -28,7 +28,7 @@ const VideoAreaOne = () => {
             <div className='col-xl-6 col-lg-7'>
               <div
                 className='cta-inner-wrap'
-                style={{ background: "url(assets/img/video/bg.png)" }}
+                style={{ background: "url(/assets/img/video/bg.png)" }}
               >
                 <div className='section-title style-white mb-0'>
                   <h4 className='subtitle style-2'>LET’S TALK</h4>

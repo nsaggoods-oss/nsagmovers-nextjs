@@ -99,7 +99,7 @@ const BannerFive = () => {
               <div
                 className='header-bg'
                 style={{
-                  backgroundImage: "url(assets/img/slide-v3/bg-02.png)",
+                  backgroundImage: "url(/assets/img/slide-v3/bg-02.png)",
                 }}
               >
                 <div className='container'>
@@ -156,7 +156,7 @@ const BannerFive = () => {
               <div
                 className='header-bg'
                 style={{
-                  backgroundImage: "url(assets/img/slide-v3/bg-03.png)",
+                  backgroundImage: "url(/assets/img/slide-v3/bg-03.png)",
                 }}
               >
                 <div className='container'>
@@ -213,7 +213,7 @@ const BannerFive = () => {
               <div
                 className='header-bg'
                 style={{
-                  backgroundImage: "url(assets/img/slide-v3/bg-04.png)",
+                  backgroundImage: "url(/assets/img/slide-v3/bg-04.png)",
                 }}
               >
                 <div className='container'>
